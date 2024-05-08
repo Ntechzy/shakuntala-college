@@ -12,6 +12,7 @@ import ImageGallery from "../../routes/ImageGallery";
 import HomeGallery from "./HomeGallery";
 import Ayurveda from "./Ayurveda";
 import Connect from "./Connect";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -35,6 +36,7 @@ const Home = () => {
       <Connect />
       <Whatsapp />
       <UsefulLinks />
+      <Outlet />
     </div>
   );
 };

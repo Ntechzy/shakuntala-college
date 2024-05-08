@@ -8,6 +8,7 @@ import students from "../../assets/hero/students.jpg";
 import inner from "../../assets/hero/inner.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Outlet } from "react-router-dom";
 
 const heroimages = [front, students, body, top, lab, inner];
 
@@ -29,6 +30,7 @@ const Hero = () => {
           </div>
         ))}
       </Carousel>
+      <Outlet />
     </div>
   );
 };
