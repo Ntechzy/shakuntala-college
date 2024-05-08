@@ -54,13 +54,15 @@ import HospitalStaff from "./routes/HospitalStaff";
 import Root from "./routes/Root";
 import Home from "./pages/Home/Home";
 import ApplyNowForm from "./components/ApplyNowForm";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 
 const router = createBrowserRouter([
-  // {
-  //   path: "/",
-  //   element: <Root />,
-  //   errorElement: <ErrorPage />,
-  //   children: [
+  {
+    path: "/",
+    element: <Navbar />,
+    errorElement: <ErrorPage />,
+    children: [
       {
         path: "",
         element: <Home />,
@@ -296,13 +298,15 @@ const router = createBrowserRouter([
         path: "hospital-opd-ipd-data",
         element: <HospitalOpdIpdData />,
       },
-    // ],
-  // },
+    ],
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+
     <RouterProvider router={router} />
+
   </React.StrictMode>
 );
