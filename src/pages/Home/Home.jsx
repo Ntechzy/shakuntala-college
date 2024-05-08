@@ -36,6 +36,7 @@ const Home = () => {
       <Connect />
       <Whatsapp />
       <UsefulLinks />
+
       <Outlet />
     </div>
   );

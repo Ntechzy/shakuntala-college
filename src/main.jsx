@@ -56,11 +56,11 @@ import Home from "./pages/Home/Home";
 import ApplyNowForm from "./components/ApplyNowForm";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
+  // {
+  //   path: "/",
+  //   element: <Root />,
+  //   errorElement: <ErrorPage />,
+  //   children: [
       {
         path: "",
         element: <Home />,
@@ -296,8 +296,8 @@ const router = createBrowserRouter([
         path: "hospital-opd-ipd-data",
         element: <HospitalOpdIpdData />,
       },
-    ],
-  },
+    // ],
+  // },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
