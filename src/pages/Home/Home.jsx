@@ -22,8 +22,8 @@ const Home = () => {
         className="hero"
         alt="Dr. Shakuntala Ayurvedic Medical College"
       /> */}
-
-      {/* <Hero />
+      
+      <Hero />
       <Section1 />
       <Section2 />
       <Ayurveda />
@@ -35,8 +35,8 @@ const Home = () => {
       <Contact />
       <Connect />
       <Whatsapp />
-      <UsefulLinks /> */}
-      kkkk
+      <UsefulLinks />
+
       <Outlet />
     </div>
   );
