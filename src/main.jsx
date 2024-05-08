@@ -58,7 +58,7 @@ import ApplyNowForm from "./components/ApplyNowForm";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Root />,
     children: [
       {
         path: "",
