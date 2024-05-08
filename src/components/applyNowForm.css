@@ -1,0 +1,55 @@
+.apply-container {
+  padding: 40px;
+}
+
+.apply-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px auto;
+  color: white;
+}
+.apply-wrapper {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.apply-wrapper img {
+  width: 800px;
+  height: 500px;
+  flex: 4;
+  border-radius: 8px;
+}
+
+.apply-form-div {
+  /* flex: 1; */
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .apply-container {
+    padding: 10px;
+  }
+  .apply-wrapper {
+    padding: 0px;
+    gap: 0;
+  }
+  .apply-wrapper img {
+    display: none;
+  }
+
+  .apply-form-div {
+    /* flex: 1; */
+    width: 100%;
+  }
+
+  .apply-form-div form {
+    margin: 0 1.2rem;
+  }
+  .hs2-heading-g {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

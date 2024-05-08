@@ -1,0 +1,99 @@
+.hs2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 100px 0;
+  /* width: 100vw; */
+}
+
+.hs2-header {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1d784d;
+}
+.hs2-heading {
+  color: #65bc51;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.hs2-courses {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.hs2--img-img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #cbcdcf;
+}
+
+.hs2--sec2-cards h3 {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.hs2--sec2-cards p {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.hs2--sec2-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  /* box-shadow: 4px 4px 8px #8a8a8a; */
+  box-shadow: 0 4px 8px #cbcdcf;
+  /* padding: 20px; */
+  width: 400px;
+  transition: background-color 0.3s ease;
+}
+
+.hs2--sec2-cards h3 {
+  color: var(--light);
+  font-size: 1.2rem;
+  /* color: orange; */
+}
+.hs2--sec2-cards:hover {
+  background-color: #1d784d;
+  transition-duration: 0.3s;
+  color: white;
+}
+.hs2--sec2-cards:hover .card-icon {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .hs2-courses {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hs1--sec2-cards {
+    width: 300px;
+    padding: 30px 20px;
+  }
+  .hs2-heading {
+    font-size: 1.5rem;
+  }
+  .hs1--sec2-cards:hover {
+    background-color: #1d784d;
+  }
+  .hs1--sec2-cards > h3 {
+    font-size: 0.9rem;
+  }
+  .hs1--sec2-cards > p {
+    font-size: 0.8rem;
+  }
+  .hs2--sec2-cards {
+    width: unset;
+  }
+}

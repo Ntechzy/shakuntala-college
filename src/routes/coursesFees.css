@@ -1,0 +1,23 @@
+.course-box {
+  width: 400px;
+  /* height: 150px; */
+  padding: 20px;
+  background-color: var(--dark);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  box-shadow: 0 4px 8px #cbcdcf;
+}
+
+.course {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 10px;
+}
+.fee {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

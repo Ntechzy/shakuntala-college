@@ -1,0 +1,32 @@
+.hopd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100vw;
+  margin: 60px 0;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.hopd a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.hopd-data {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: var(--dark);
+  box-shadow: 0 4px 8px #cbcdcf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hopd-heading {
+  text-align: center;
+}

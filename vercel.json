@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ],
+    "routes": [],
+  "builds": [
+    { "src": "public", "use": "@vercel/static" }
+  ]
+  }

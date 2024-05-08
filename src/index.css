@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #eef0f2;
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 30px;
+}
+.g10 {
+  gap: 10px;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+/* dark 1d784d */
+/* light 65bc51 */
+
+:root {
+  --dark: #1d784d;
+  --light: #65bc51;
+  --white: #eef0f2;
+}
+
+.content {
+  width: 100vw;
+  padding: 0;
+}
+
+.s1-2 {
+  font-size: 1.2rem;
+}
+
+.hs2-header-g {
+  font-size: 1.2rem;
+}
+
+.sHeading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 40px;
+  color: var(--dark);
+}
+
+th {
+  color: var(--dark);
+  border-right: 1px solid var(--light);
+  text-align: center;
+}
+td {
+  color: var(--dark);
+  text-align: center;
+  border-right: 1px solid var(--light);
+  line-height: 3rem;
+}
+
+td img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #cbcdcf;
+  padding: 10px;
+}
+
+td a {
+  text-decoration: none;
+  color: #1d784d;
+}

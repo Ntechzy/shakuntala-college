@@ -1,0 +1,89 @@
+.topbar-container {
+  /* height: 20px; */
+  background-color: var(--dark);
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.topbar-wrapper {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top-contact {
+  display: flex;
+  gap: 20px;
+}
+
+.apply-now {
+  background-color: var(--light);
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: 500;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.top-phone {
+  color: white;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.top-email {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.applyform {
+  background-color: var(--light);
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  /* height: 500px; */
+  display: none;
+  position: absolute;
+  z-index: 9999;
+  top: 10%;
+  right: 15%;
+  transition: display 0.5s ease-in-out;
+}
+
+.apply-now a {
+  text-decoration: none;
+  color: white;
+}
+
+.applyform p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.showform {
+  display: block;
+}
+
+.top-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .topbar-container {
+    display: none;
+  }
+}

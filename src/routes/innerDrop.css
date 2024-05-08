@@ -1,0 +1,24 @@
+.inner-drop-container {
+  /* background-color: orange; */
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner-drop-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inner-drop-heading {
+  font-size: 1.5rem;
+  color: var(--dark);
+}
+
+.inner-drop-para {
+  font-size: 1.2rem;
+  text-align: justify;
+}

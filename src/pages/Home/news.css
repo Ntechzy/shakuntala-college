@@ -1,0 +1,32 @@
+.news-slider {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.news-slide {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}

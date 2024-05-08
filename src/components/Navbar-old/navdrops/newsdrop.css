@@ -1,0 +1,51 @@
+.aboutdrop--main {
+  background-color: #fff;
+  color: #65bc51;
+}
+
+.aboutdrop--links {
+  background-color: #fff;
+  width: 15rem;
+  padding: 10px;
+}
+
+.aboutdrop--links > a {
+  text-decoration: none;
+  color: #65bc51;
+  font-weight: 600;
+}
+
+.dropdown-navigation {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding-top: 6px;
+  list-style-type: none;
+  margin: 0;
+  display: none;
+}
+.dropdown-navigation:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-navigationIn {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menuIn {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  list-style-type: none;
+  margin: 0;
+  display: none;
+}
+.dropdown-navigationIn:hover .dropdown-menuIn {
+  display: block;
+}
