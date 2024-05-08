@@ -31,7 +31,7 @@ const Home = () => {
       </div>
       <Section3 />
       {/* <ImageGallery /> */}
-      <HomeGallery />
+      {/* <HomeGallery /> */}
       <Contact />
       <Connect />
       <Whatsapp />
