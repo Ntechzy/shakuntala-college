@@ -63,23 +63,23 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "",
         element: <Home />,
       },
       {
-        path: "/contact",
+        path: "contact",
         element: <Contact />,
       },
       {
-        path: "/about",
+        path: "about",
         element: <About />,
       },
       {
-        path: "/apply-now",
+        path: "apply-now",
         element: <ApplyNowForm />,
       },
       {
-        path: "/about/about-college",
+        path: "about/about-college",
         element: <AboutCollege />,
       },
       {
