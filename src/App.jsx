@@ -14,7 +14,7 @@ const App = () => {
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "",
+          path: "/",
           element: <Home />,
         }
 
