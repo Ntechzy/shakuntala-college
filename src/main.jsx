@@ -60,7 +60,7 @@ import Navbar from "./components/Navbar";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />,
+    element: <Root />,
     errorElement: <ErrorPage />,
     children: [
       {
@@ -300,6 +300,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "*",
+    element: <ErrorPage />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
