@@ -58,9 +58,12 @@ const Footer = () => {
             <Link to="/contact">
               <li>Contact Us</li>
             </Link>
-            <Link target="_blank" to="mailto:siddharth.singh19@outlook.com">
+            <Link
+              target="_blank"
+              to="mailto:admission.drshakuntalaayush@gmail.com"
+            >
               <li>
-                <IoMdMail /> drshakuntalaayush@mail.com
+                <IoMdMail /> admission.drshakuntalaayush@gmail.com
               </li>
             </Link>
             <Link
@@ -68,8 +71,9 @@ const Footer = () => {
               to="https://maps.app.goo.gl/i9tEYpxgQfVSvgraA"
             >
               <li>
-                <FaLocationDot /> 1214, Gaurabadshahpur, Nainsand, <br />{" "}
-                Jaunpur, Uttar Pradesh-222133
+                <FaLocationDot /> 1214, Nayansand, Thana Road, Gaurabadshahpur,
+                <br />
+                Jaunpur, Uttar Pradesh-222133 (India)
               </li>
             </Link>
             <Link to="tel:9918905623" target="_blank">

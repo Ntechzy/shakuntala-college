@@ -18,7 +18,7 @@ const Top = () => {
             </p>
             <a className="top-email" href="mailto:siddharth@gmail.com">
               <IoMail />
-              siddharth@gmail.com
+              admission.drshakuntalaayush@gmail.com
             </a>
           </div>
           <div className="top-btns">

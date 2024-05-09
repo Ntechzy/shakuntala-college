@@ -43,13 +43,13 @@ const Contact = () => {
         <div className="contact__options">
           <a
             className="contact-a"
-            href="mailto:siddharth.singh19@outlook.com"
+            href="mailto:admission.drshakuntalaayush@gmail.com"
             target="_blank"
           >
             <article className="contact__option">
               <MdOutlineEmail className="contact__option-icon" />
               <h4>Email</h4>
-              <h5>drshakuntala@mail.com</h5>
+              <h5>admission.drshakuntalaayush@gmail.com</h5>
               <p>Send an Email</p>
             </article>
           </a>

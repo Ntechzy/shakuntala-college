@@ -29,6 +29,7 @@
   color: var(--dark);
   background: var(--white);
   padding: 1.2rem;
+  width: 400px;
   font-size: 1rem;
   border-radius: 8px;
   text-align: center;
@@ -163,5 +164,12 @@ textarea:focus {
   }
   .contact-us > h2 {
     font-size: 1.5rem;
+  }
+
+  .contact__option {
+    width: 300px;
+  }
+  .contact__option h5 {
+    font-size: 0.8rem;
   }
 }
