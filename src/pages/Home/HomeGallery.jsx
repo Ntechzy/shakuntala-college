@@ -17,7 +17,7 @@ const ImageGallery = () => {
               <img
                 key={index}
                 className="gallery-imgs"
-                src={images[imagePath].name}
+                src={"/" + images[imagePath].name}
                 alt={`Image ${index}`}
               />
             );
