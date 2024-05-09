@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../routes/imageGallery.css";
 
-const images = import.meta.glob("/src/pages/Home/*.{jpg,JPG}");
+const images = import.meta.glob("/public/homeG/*.{jpg,JPG}");
 // console.log("Imported Images:", images);
 const ImageGallery = () => {
   return (
