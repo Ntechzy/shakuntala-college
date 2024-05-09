@@ -14,7 +14,7 @@ const Whatsapp = () => {
 
   const handleWA = (e) => {
     setOpen(!open);
-    location.href = `https://api.whatsapp.com/send?phone=9918905623&text=${msg}`;
+    location.href = `https://api.whatsapp.com/send?phone=919918905623&text=${msg}`;
   };
 
   const handleChange = (e) => {
