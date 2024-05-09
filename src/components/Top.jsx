@@ -14,7 +14,7 @@ const Top = () => {
           <div className="top-contact">
             <p className="top-phone">
               <FaPhoneAlt />
-              +91-965454321
+              +91-9918905623
             </p>
             <a className="top-email" href="mailto:siddharth@gmail.com">
               <IoMail />

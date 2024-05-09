@@ -55,25 +55,25 @@ const Contact = () => {
           </a>
           <a
             className="contact-a"
-            href="https://t.me/+917275747545"
+            href="https://t.me/+919918905623"
             target="_blank"
           >
             <article className="contact__option">
               <LiaTelegram className="contact__option-icon" />
               <h4>Telegram</h4>
-              <h5>+91 - 9876 5432 10</h5>
+              <h5>+91 - 9918905623</h5>
               <p>Send a Message</p>
             </article>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=7275747545"
+            href="https://api.whatsapp.com/send?phone=9918905623"
             target="_blank"
             className="contact-a"
           >
             <article className="contact__option">
               <BsWhatsapp className="contact__option-icon" />
               <h4>WhatsApp</h4>
-              <h5>+91-9876 5432 10</h5>
+              <h5>+91-9918905623</h5>
 
               <p>Send a Message</p>
             </article>

@@ -22,14 +22,12 @@ const Home = () => {
         className="hero"
         alt="Dr. Shakuntala Ayurvedic Medical College"
       /> */}
-      
+
       <Hero />
       <Section1 />
       <Section2 />
       <Ayurveda />
-      <div className="applyHome">
-        <ApplyNowForm />
-      </div>
+      {/* <div className="applyHome"><ApplyNowForm /></div> */}
       <Section3 />
       <HomeGallery />
       <Contact />

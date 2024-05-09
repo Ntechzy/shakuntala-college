@@ -72,9 +72,9 @@ const Footer = () => {
                 Jaunpur, Uttar Pradesh-222133
               </li>
             </Link>
-            <Link to="tel:7275747545" target="_blank">
+            <Link to="tel:9918905623" target="_blank">
               <li>
-                <FaPhoneAlt /> 991 890 5644
+                <FaPhoneAlt /> 9918905623
               </li>
             </Link>
           </ul>
