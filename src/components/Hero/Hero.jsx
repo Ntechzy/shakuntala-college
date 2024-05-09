@@ -1,11 +1,11 @@
 import React from "react";
 import "./hero.css";
-import body from "../../assets/hero/body.jpg";
-import lab from "../../assets/hero/lab.jpg";
-import top from "../../assets/hero/top.jpg";
-import front from "../../assets/hero/front.jpg";
-import students from "../../assets/hero/students.jpg";
-import inner from "../../assets/hero/inner.jpg";
+import body from "/assets/hero/body.jpg";
+import lab from "/assets/hero/lab.jpg";
+import top from "/assets/hero/top.jpg";
+import front from "/assets/hero/front.jpg";
+import students from "/assets/hero/students.jpg";
+import inner from "/assets/hero/inner.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Outlet } from "react-router-dom";

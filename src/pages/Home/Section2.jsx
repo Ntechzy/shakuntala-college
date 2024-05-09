@@ -1,10 +1,10 @@
 import React from "react";
 import "./section2.css";
 import herbs from "/images/herbs.jpg";
-import herbal from "../../assets/herbal.jpg";
-import library from "../../assets/library.jpg";
-import lab from "../../assets/lab.jpg";
-import scholarship from "../../assets/scholarship.jpg";
+import herbal from "/assets/herbal.jpg";
+import library from "/assets/library.jpg";
+import lab from "/assets/lab.jpg";
+import scholarship from "/assets/scholarship.jpg";
 
 const Section2 = () => {
   const coursecards = [

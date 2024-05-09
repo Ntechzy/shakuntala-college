@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./section3.css";
 import herbs from "/images/herbs.jpg";
-import body from "../../assets/hero/body.jpg";
+import body from "/assets/hero/body.jpg";
 
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 const hs3news = [
