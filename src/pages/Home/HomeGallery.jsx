@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../routes/imageGallery.css";
-import img1 from "/homeG/sh9.JPG";
-import img2 from "/homeG/sh14.JPG";
-import img3 from "/homeG/sh16.JPG";
-import img4 from "/homeG/sh39.JPG";
-import img5 from "/homeG/sh58.JPG";
-import img6 from "/homeG/sh75.JPG";
-import img7 from "/homeG/sh82.JPG";
-import img8 from "/homeG/sh110.JPG";
-import img9 from "/homeG/sh117.JPG";
+import img1 from "/homeG/sh9.avif";
+import img2 from "/homeG/sh14.avif";
+import img3 from "/homeG/sh16.avif";
+import img4 from "/homeG/sh39.avif";
+import img5 from "/homeG/sh58.avif";
+import img6 from "/homeG/sh75.avif";
+import img7 from "/homeG/sh82.avif";
+import img8 from "/homeG/sh110.avif";
+import img9 from "/homeG/sh117.avif";
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9];
 

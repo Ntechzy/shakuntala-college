@@ -48,7 +48,8 @@
   align-items: center;
   justify-content: center;
   margin: 40px;
-  width: 70rem;
+  width: 50rem;
+  gap: 30px;
 }
 
 .ayurveda-aspects-wrapper .right {
@@ -62,9 +63,9 @@
   /* background-color: var(--dark); */
   /* border: 2px solid var(--dark); */
   border-right: none;
-  flex: 1.5;
+  flex: 1;
   /* padding: 20px; */
-  height: 400px;
+  height: 300px;
   color: #fff;
   font-size: 1.5rem;
   display: flex;
@@ -72,7 +73,7 @@
   justify-content: space-between;
   flex-direction: column;
   /* gap: 10px; */
-  border-radius: 8px 0 0 8px;
+  border-radius: 8px;
 }
 
 .btnn {
@@ -80,13 +81,13 @@
 }
 
 .left .btnn {
-  padding: 16px;
+  padding: 10px;
   border: none;
   outline: none;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
   /* background-color: unset; */
   color: #fff;
   cursor: pointer;
@@ -108,18 +109,18 @@
 }
 
 .right {
-  height: 400px;
+  height: 300px;
   background-color: var(--dark);
-  flex: 5;
+  flex: 3;
   padding: 20px;
   color: #fff;
-  border-radius: 0 8px 8px 0;
-  line-height: 3rem;
+  border-radius: 8px;
+  line-height: 2rem;
   text-align: justify;
 }
 .right p {
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .active-btnn {
   background-color: var(--dark);

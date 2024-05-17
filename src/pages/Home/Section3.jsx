@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./section3.css";
 import herbs from "/images/herbs.jpg";
-import body from "/assets/hero/body.jpg";
+import lab from "/hero/lab.avif";
+import inner from "/hero/inner.avif";
+import body from "/hero/body.avif";
 
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 const hs3news = [
@@ -16,7 +18,7 @@ const hs3news = [
   {
     id: 2,
     date: "25/04/2024",
-    img: herbs,
+    img: lab,
     title: "Master of Surgery(M.S.) Ayurveda",
     content:
       "Master the intricate art of Ayurvedic surgery, blending ancient techniques with modern medical knowledge. Elevate your skills and career. Enroll now!",
@@ -32,7 +34,7 @@ const hs3news = [
   {
     id: 4,
     date: "25/04/2024",
-    img: herbs,
+    img: inner,
     title: "Ayurvedic Pharmacist",
     content:
       "Master the fusion of Ayurvedic wisdom and pharmaceutical science. Become an Ayurvedic Pharmacist adept at herbal formulations and holistic healthcare. Enroll today!",

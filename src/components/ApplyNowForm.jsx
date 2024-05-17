@@ -1,5 +1,11 @@
 import React, { useState, useRef } from "react";
 import "./applyNowForm.css";
+import Section2 from "../pages/Home/Section2";
+import ImageGallery from "../routes/ImageGallery";
+import HomeGallery from "../pages/Home/HomeGallery";
+import Connect from "../pages/Home/Connect";
+import emailjs from "@emailjs/browser";
+
 const ApplyNowForm = () => {
   const [messageSent, setMessageSent] = useState(false);
 
@@ -9,18 +15,15 @@ const ApplyNowForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_f6cag2v",
-        "template_xo39pe1",
-        form.current,
-        "QhoIipXXm4SK7ovcP"
-      )
+      .sendForm("service_ct0glwi", "template_ps7zzxj", form.current, {
+        publicKey: "tpt_h4u-z5yVXxnR7",
+      })
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          console.log("Welcome Back, Sid__Art_");
         },
         (error) => {
-          console.log(error.text);
+          console.log("FAILED...", error.text);
         }
       );
 
@@ -33,8 +36,9 @@ const ApplyNowForm = () => {
   return (
     <div className="apply-container">
       <div className="flex aic jcc fdc g10">
+        <div className="opennow">Admissions are now open for 2024-2025</div>
         <div className="hs2-header-g">Apply Now</div>
-        <div className="hs2-heading-g">Begin Your Journey</div>
+        <div className="hs2-heading-a">Begin Your Journey</div>
       </div>
       <div className="apply-wrapper">
         <div>
@@ -75,6 +79,9 @@ const ApplyNowForm = () => {
           </form>
         </div>
       </div>
+      <Section2 />
+      <HomeGallery />
+      <Connect />
     </div>
   );
 };

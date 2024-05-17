@@ -28,6 +28,18 @@
   width: 30%;
 }
 
+.hs2-heading-a {
+  color: var(--light);
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.opennow {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--dark);
+}
+
 @media only screen and (max-width: 600px) {
   .apply-container {
     padding: 10px;

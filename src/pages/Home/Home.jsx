@@ -7,6 +7,7 @@ import Section3 from "./Section3";
 import Contact from "../Contact/Contact";
 import Whatsapp from "../../components/whatsapp/Whatsapp";
 import UsefulLinks from "../../components/UsefulLinks";
+import AdmissionOpen from "../../components/AdmissionOpen";
 import ApplyNowForm from "../../components/ApplyNowForm";
 import ImageGallery from "../../routes/ImageGallery";
 import HomeGallery from "./HomeGallery";
@@ -33,6 +34,7 @@ const Home = () => {
       <Contact />
       <Connect />
       <Whatsapp />
+      <AdmissionOpen />
       <UsefulLinks />
 
       <Outlet />

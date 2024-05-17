@@ -15,18 +15,15 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "service_f6cag2v",
-        "template_xo39pe1",
-        form.current,
-        "QhoIipXXm4SK7ovcP"
-      )
+      .sendForm("service_ct0glwi", "template_ps7zzxj", form.current, {
+        publicKey: "tpt_h4u-z5yVXxnR7",
+      })
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log(error.text);
+          console.log("FAILED...", error.text);
         }
       );
     setMessageSent(true);
@@ -66,7 +63,7 @@ const Contact = () => {
             </article>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=9918905623"
+            href="https://api.whatsapp.com/send?phone=919918905623"
             target="_blank"
             className="contact-a"
           >
