@@ -63,7 +63,7 @@ const Section3 = () => {
         <button className="prev-btn" onClick={goToPrevSlide}>
           <FaChevronCircleLeft />
         </button>
-        <div className="news-slide">
+        <div className="news-slide" id="news-slide">
           <img
             className="news-img"
             src={hs3news[currentIndex].img}
