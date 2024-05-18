@@ -1,6 +1,6 @@
 import React from "react";
 import "./section2.css";
-import herbs from "/images/herbs.jpg";
+import herbs from "/images/image1.avif";
 import herbal from "/assets/herbal.avif";
 import library from "/assets/library.avif";
 import lab from "/assets/lab.avif";
