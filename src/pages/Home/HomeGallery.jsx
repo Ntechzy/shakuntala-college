@@ -42,7 +42,9 @@ const ImageGallery = () => {
             />
           ))}
           <Link to="/image-gallery">
-            <button className="gall-btn">Visit Our Image Gallery...</button>
+            <button className="gall-btn">
+              <p>Visit Our Image Gallery...</p>
+            </button>
           </Link>
         </div>
       </div>

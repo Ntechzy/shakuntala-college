@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./news.css"; // Import CSS for styling
+import "./news.css";
 import herbs from "/images/herbs.jpg";
 const newsData = [
   {

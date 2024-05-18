@@ -95,3 +95,15 @@ td a {
   text-decoration: none;
   color: #1d784d;
 }
+
+#news-slide {
+  max-width: 1300px;
+}
+
+.news-slide {
+  max-width: 1300px;
+}
+
+.news-slider {
+  max-width: 1300px;
+}

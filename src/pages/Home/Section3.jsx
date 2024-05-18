@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./section3.css";
-import herbs from "/images/herbs.jpg";
+import herbs from "/images/image1.avif";
 import lab from "/hero/lab.avif";
 import inner from "/hero/inner.avif";
 import body from "/hero/body.avif";

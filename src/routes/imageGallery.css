@@ -75,16 +75,24 @@
   height: 200px;
   text-overflow: clip;
   background-color: #c70707;
-  background-image: url(/public/images/sh21.JPG);
+  background-image: url(/public/images/image31.avif);
   background-size: cover;
   font-size: 2rem;
-  color: white;
-  font-weight: 500;
+  color: var(--light);
+  font-weight: 700;
+}
+
+.gall-btn p {
+  background-color: rgba(0, 0, 0, 0.624);
+  padding: 50px;
+  height: 200px;
+  border-radius: 8px;
 }
 
 .gall-btn:hover {
   background-color: var(--dark);
-  color: white;
+  color: var(--white);
+  font-weight: 600;
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
 }
@@ -99,4 +107,8 @@
   font-weight: 500;
   font-size: 2.5rem;
   margin-bottom: 40px;
+}
+
+.gallery-images-avif {
+  width: 300px;
 }
