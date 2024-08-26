@@ -45,7 +45,7 @@ const ApplyNowForm = () => {
           <img src="/books.jpg" alt="" />
         </div>
         <div className="apply-form-div">
-          <form ref={form} onSubmit={sendEmail}>
+          {/* <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
@@ -76,7 +76,8 @@ const ApplyNowForm = () => {
             >
               {messageSent ? "Message Sent!" : "Send Message"}
             </button>
-          </form>
+          </form> */}
+          <div id="formsID7375"></div>
         </div>
       </div>
       <Section2 />
