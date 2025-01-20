@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./applyNowForm.css";
 import Section2 from "../pages/Home/Section2";
 import ImageGallery from "../routes/ImageGallery";
@@ -7,33 +7,42 @@ import Connect from "../pages/Home/Connect";
 import emailjs from "@emailjs/browser";
 
 const ApplyNowForm = () => {
-  const [messageSent, setMessageSent] = useState(false);
 
-  const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const [messageSent, setMessageSent] = useState(false);
 
-    emailjs
-      .sendForm("service_ct0glwi", "template_ps7zzxj", form.current, {
-        publicKey: "tpt_h4u-z5yVXxnR7",
-      })
-      .then(
-        () => {
-          console.log("Welcome Back, Sid__Art_");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+  // const form = useRef();
 
-    setMessageSent(true);
-    setTimeout(() => {
-      setMessageSent(false);
-    }, 3000);
-    e.target.reset();
-  };
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm("service_ct0glwi", "template_ps7zzxj", form.current, {
+  //       publicKey: "tpt_h4u-z5yVXxnR7",
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log("Welcome Back, Sid__Art_");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error.text);
+  //       }
+  //     );
+
+  //   setMessageSent(true);
+  //   setTimeout(() => {
+  //     setMessageSent(false);
+  //   }, 3000);
+  //   e.target.reset();
+  // };
+
+  useEffect(() => {
+    window.mainScriptLoaded()
+  }, [])
+
   return (
+
+
     <div className="apply-container">
       <div className="flex aic jcc fdc g10">
         <div className="opennow">Admissions are now open for 2024-2025</div>
@@ -43,8 +52,10 @@ const ApplyNowForm = () => {
       <div className="apply-wrapper">
         <div>
           <img src="/books.jpg" alt="" />
+      <div id="formsID7375"></div>
         </div>
         <div className="apply-form-div">
+
           {/* <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"
@@ -77,7 +88,7 @@ const ApplyNowForm = () => {
               {messageSent ? "Message Sent!" : "Send Message"}
             </button>
           </form> */}
-          <div id="formsID7375"></div>
+
         </div>
       </div>
       <Section2 />

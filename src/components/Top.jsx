@@ -23,7 +23,7 @@ const Top = () => {
           </div>
           <div className="top-btns">
             <button className={`apply-now`} onClick={handleClick}>
-              <Link to="/apply-now">Apply Now</Link>
+              <a href="/apply-now">Apply Now</a>
             </button>
             <button className={`apply-now`} onClick={handleClick}>
               <Link

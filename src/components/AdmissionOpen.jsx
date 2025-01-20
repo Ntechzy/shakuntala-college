@@ -16,8 +16,7 @@ const AdmissionOpen = () => {
   };
   return (
     <div className="ad-open rotate">
-      <Link to="/apply-now">Admissions Open</Link>
-      <Link to="/apply-now"></Link>
+      <a href="/apply-now">Admissions Open</a>
     </div>
   );
 };
