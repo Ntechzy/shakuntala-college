@@ -800,7 +800,7 @@ const ListofHospitalStaff = () => {
 
   return (
     <div>
-      <div className="sHeading">Sr. No.</div>
+      <div className="sHeading">List of Hospital Staff</div>
       <DataTable
         columns={columns}
         data={data}
