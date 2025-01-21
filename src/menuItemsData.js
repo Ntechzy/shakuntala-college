@@ -114,7 +114,10 @@ export const menuItemsData = [
         title: "Principal and Medical Superintendent",
         url: "/ncism-mandate/#principal-medical-superintendent",
       },
-
+      {
+        title: "Vice chancellor of Mahayogi Gorakhnath University",
+        url: "/ncism-mandate/#vice-chancellor-of-mgu",
+      },
       {
         title: "Intake Capacity",
         url: "/ncism-mandate/#intake-capacity",

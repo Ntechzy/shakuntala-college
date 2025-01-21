@@ -1,7 +1,9 @@
 import React from "react";
 import { menuItemsData } from "../menuItemsData";
 
-const sl = menuItemsData[3].submenu[2].submenu;
+const sl = menuItemsData[3].submenu[3].submenu;
+console.log("sl", sl);
+
 // console.log(sl);
 
 const StaffList = () => {

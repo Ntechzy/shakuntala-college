@@ -2,7 +2,7 @@ import React from "react";
 import "./attendanceReport.css";
 import { menuItemsData } from "../menuItemsData";
 
-const att = menuItemsData[3].submenu[6].submenu;
+const att = menuItemsData[3].submenu[7].submenu;
 const AttendanceReport = () => {
   return (
     <>

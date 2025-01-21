@@ -28,6 +28,7 @@ import VideoGallery from "../routes/VideoGallery";
 import HospitalOpdIpdData from "../routes/HospitalOpdIpdData";
 import OtherHospitaldata from "../routes/OtherHospitaldata";
 import StaffList from "../routes/StaffList";
+import VcOfMgu from "../routes/VcOfMgu";
 
 export const menuData = [
   {
@@ -208,6 +209,11 @@ export const menuData = [
         title: "Principal and Medical Superintendent",
         url: "principal-medical-superintendent",
         content: PrincipalMedicalSuperintendent,
+      },
+      {
+        title: "Vice chancellor of Mahayogi Gorakhnath University",
+        url: "vice-chancellor-of-mgu",
+        content: VcOfMgu,
       },
 
       {
