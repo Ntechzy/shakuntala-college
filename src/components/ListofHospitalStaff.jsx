@@ -1,808 +1,813 @@
 import React from "react";
+import DataTable from "react-data-table-component";
+const ExpandedComponent = ({ data }) => <pre>{JSON.stringify(data, null, 2)}</pre>;
 
 const ListofHospitalStaff = () => {
+  const data=[
+   
+    {
+        "Sr. No.": 1,
+        "Name": "Dr.PRATIBHA YADAV",
+        "Qualification": "BAMS, MD",
+        "Designation": "Consultant",
+        "Working Department": "Kayachikitsa",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1707436800000,
+        "Contact No.": 8970851406,
+        "Email ID": "drpratibha32@gmail.com"
+    },
+    {
+        "Sr. No.": 2,
+        "Name": "Dr. Shaileshwari Yadav",
+        "Qualification": "BAMS, MS",
+        "Designation": "Consultant",
+        "Working Department": "Prasuti Tantra evam Stri Rog",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1659657600000,
+        "Contact No.": 9565334833,
+        "Email ID": "shaileshwariy@gmail.com"
+    },
+    {
+        "Sr. No.": 3,
+        "Name": "Dr. Rishi Kumar",
+        "Qualification": "BAMS, MD",
+        "Designation": "Consultant",
+        "Working Department": "Swasthvritta & Yoga",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": null,
+        "Contact No.": null,
+        "Email ID": null
+    },
+    {
+        "Sr. No.": 4,
+        "Name": "Dr. GauriShankar Yadav",
+        "Qualification": "BAMS, MD",
+        "Designation": "Consultant",
+        "Working Department": "Panchkarma",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1728518400000,
+        "Contact No.": 9919801055,
+        "Email ID": "dr.gaurishankar89@gmail.com"
+    },
+    {
+        "Sr. No.": 5,
+        "Name": "Dr. Ajay Kumar Anand",
+        "Qualification": "BAMS, MS",
+        "Designation": "Consultant",
+        "Working Department": "Shalya Tantra",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1676592000000,
+        "Contact No.": 8318913948,
+        "Email ID": "drajayanand24@gmail.com"
+    },
+    {
+        "Sr. No.": 6,
+        "Name": "Dr. Ram Avadh Yadav",
+        "Qualification": "MBBS, MD",
+        "Designation": "Peadiatrician",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578268800000,
+        "Contact No.": 9415273329,
+        "Email ID": "drrayadav54@gmail.com"
+    },
+    {
+        "Sr. No.": 7,
+        "Name": "Dr. Shakuntala Yadav",
+        "Qualification": "MBBS, MS",
+        "Designation": "Obs & Gyne",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578268800000,
+        "Contact No.": 9918905642,
+        "Email ID": "drsakuntalay@gmail.com"
+    },
+    {
+        "Sr. No.": 8,
+        "Name": "Dr Anand Vardhan",
+        "Qualification": "MBBS, MS",
+        "Designation": "Surgeon",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1580688000000,
+        "Contact No.": 6390691111,
+        "Email ID": "dranandkds@gmail.com"
+    },
+    {
+        "Sr. No.": 9,
+        "Name": "Dr Anshu Kumari",
+        "Qualification": "MBBS, MD",
+        "Designation": "Physician",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1580688000000,
+        "Contact No.": 9918905624,
+        "Email ID": "anshukumari87@gmail.com"
+    },
+    {
+        "Sr. No.": 10,
+        "Name": "Dr Ram Narayan",
+        "Qualification": "MBBS, MD",
+        "Designation": "Pathologist",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578009600000,
+        "Contact No.": 8859921803,
+        "Email ID": "drramnarayan02222@gmail.com"
+    },
+    {
+        "Sr. No.": 11,
+        "Name": "Dr Anil Gupta",
+        "Qualification": "MBBS, MD",
+        "Designation": "Anaestesiologist",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578268800000,
+        "Contact No.": 9129773253,
+        "Email ID": "dranilgupta01111@gmail.com"
+    },
+    {
+        "Sr. No.": 12,
+        "Name": "Dr. Dheerendra Bahadur Singh",
+        "Qualification": "MBBS, MD",
+        "Designation": "Radiologist",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578528000000,
+        "Contact No.": 9415257235,
+        "Email ID": "drdbsingh010766@gmail.com"
+    },
+    {
+        "Sr. No.": 13,
+        "Name": "Dr Dinesh Chandra Kushwaha",
+        "Qualification": "MBBS, MS",
+        "Designation": "Ophthalmologist",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578096000000,
+        "Contact No.": 9918952777,
+        "Email ID": "drdckushwaha010158@gmail.com"
+    },
+    {
+        "Sr. No.": 14,
+        "Name": "Dr Ayushi Yadav",
+        "Qualification": "BDS, MDS",
+        "Designation": "Dentist",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1578268800000,
+        "Contact No.": 9919185005,
+        "Email ID": "ydvayushi31@gmail.com"
+    },
+    {
+        "Sr. No.": 15,
+        "Name": "Mr. Sanjay Kumar Gupta",
+        "Qualification": "M. Pharma",
+        "Designation": "Pharmacognosist",
+        "Working Department": "Teaching Pharmacy",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1601510400000,
+        "Contact No.": 9648359044,
+        "Email ID": "gupta.sanjay31@gmail.com"
+    },
+    {
+        "Sr. No.": 16,
+        "Name": "Mr. Rajaram",
+        "Qualification": "M. Pharma",
+        "Designation": "Analytical Chemist",
+        "Working Department": "Teaching Pharmacy",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1601510400000,
+        "Contact No.": 8756144633,
+        "Email ID": "raja.ram4892@gmail.com"
+    },
+    {
+        "Sr. No.": 17,
+        "Name": "Dr.Ajay Yadav",
+        "Qualification": "BPT, MPT",
+        "Designation": "Physiotherapist",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1706745600000,
+        "Contact No.": 9838676285,
+        "Email ID": 0
+    },
+    {
+        "Sr. No.": 18,
+        "Name": "Dr. Arun Kumar Tiwari",
+        "Qualification": "BAMS",
+        "Designation": "Depty Medical Suprintendent",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1660867200000,
+        "Contact No.": 9451161226,
+        "Email ID": "draruntiwari12sep1957@gmail.com"
+    },
+    {
+        "Sr. No.": 19,
+        "Name": "Dr. Vivek kumar Tripathi",
+        "Qualification": "BAMS",
+        "Designation": "EMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1675641600000,
+        "Contact No.": 8853166222,
+        "Email ID": "dr.tripathi.vivek@gmail.com"
+    },
+    {
+        "Sr. No.": 20,
+        "Name": "Dr.Amit Kumar",
+        "Qualification": "BAMS",
+        "Designation": "EMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1731801600000,
+        "Contact No.": 9451066725,
+        "Email ID": "dramitkumar9451@gamil.com"
+    },
+    {
+        "Sr. No.": 21,
+        "Name": "Dr. Pankaj Prajapati",
+        "Qualification": "BAMS",
+        "Designation": "RMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1612224000000,
+        "Contact No.": 8318930360,
+        "Email ID": "pankajprajapati896@gmail.com"
+    },
+    {
+        "Sr. No.": 22,
+        "Name": "Dr. Monal Tiwari",
+        "Qualification": "BAMS",
+        "Designation": "RMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1727740800000,
+        "Contact No.": 9984438467,
+        "Email ID": "monal.s.tiwari@gmail.com"
+    },
+    {
+        "Sr. No.": 23,
+        "Name": "Dr. Sonam Yadav",
+        "Qualification": "BAMS",
+        "Designation": "RMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1725840000000,
+        "Contact No.": 8787082880,
+        "Email ID": "yadavsonambams@gmail.com"
+    },
+    {
+        "Sr. No.": 24,
+        "Name": "Dr. Anushri soni",
+        "Qualification": "BAMS",
+        "Designation": "RMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1730419200000,
+        "Contact No.": 7355646295,
+        "Email ID": "anushrisoni1207@gmail.com"
+    },
+    {
+        "Sr. No.": 25,
+        "Name": "Dr. Iffat Yasmin",
+        "Qualification": "BAMS",
+        "Designation": "RMO",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1617580800000,
+        "Contact No.": 7618976309,
+        "Email ID": "iffaty64@gmail.com"
+    },
+    {
+        "Sr. No.": 26,
+        "Name": "Mr. Satendra Yadav",
+        "Qualification": "Graduate",
+        "Designation": "Yoga teacher or expert",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Part Time",
+        "Date of Appointment": 1601856000000,
+        "Contact No.": 8739099023,
+        "Email ID": "sy421888@gmail.com"
+    },
+    {
+        "Sr. No.": 27,
+        "Name": "Mr. Avanish Kumar Maurya",
+        "Qualification": "Diploma",
+        "Designation": "X-ray Technician",
+        "Working Department": "Modern Medical Staff",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1597363200000,
+        "Contact No.": 9198133194,
+        "Email ID": "avaneesh088@gmail.com"
+    },
+    {
+        "Sr. No.": 28,
+        "Name": "Mr. Vishal Yadav",
+        "Qualification": "12th",
+        "Designation": "Dark Room Attendant",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1727740800000,
+        "Contact No.": 7408858274,
+        "Email ID": "vishalyadav33108@gmail.com"
+    },
+    {
+        "Sr. No.": 29,
+        "Name": "Ms. Neeta Karpuriya",
+        "Qualification": "M.Sc Nursing",
+        "Designation": "Matron",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": null,
+        "Contact No.": null,
+        "Email ID": null
+    },
+    {
+        "Sr. No.": 30,
+        "Name": "Mr. Sunil Yadav",
+        "Qualification": "M.Sc Nursing",
+        "Designation": "Assistant Matron",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1667433600000,
+        "Contact No.": 6391863147,
+        "Email ID": "sunilking8565@gmail.com"
+    },
+    {
+        "Sr. No.": 31,
+        "Name": "Mr. Govind Prasad",
+        "Qualification": "Diploma",
+        "Designation": "OT Technician",
+        "Working Department": "Operation Theater",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1707696000000,
+        "Contact No.": null,
+        "Email ID": null
+    },
+    {
+        "Sr. No.": 32,
+        "Name": "Mr. Sabhashish Kumar",
+        "Qualification": "12th",
+        "Designation": "OT Attendant",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1641168000000,
+        "Contact No.": 9792410705,
+        "Email ID": "sabhashishkumar9792410705@gmail.com"
+    },
+    {
+        "Sr. No.": 33,
+        "Name": "Ms. Roshani Bano",
+        "Qualification": "GNM",
+        "Designation": "OT Nurse",
+        "Working Department": "Operation Theater",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1601510400000,
+        "Contact No.": 7052742628,
+        "Email ID": "roshanisalmani1@gmail.com"
+    },
+    {
+        "Sr. No.": 34,
+        "Name": "Mr. Pramod kumar Yadav",
+        "Qualification": "12th",
+        "Designation": "OT Attendant",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599004800000,
+        "Contact No.": 9451311510,
+        "Email ID": "pramodyadav05@gmail.com"
+    },
+    {
+        "Sr. No.": 35,
+        "Name": "Dr. Dharmendra Kumar Prajapati",
+        "Qualification": "BAMS",
+        "Designation": "PK House Officer",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599177600000,
+        "Contact No.": 7676868172,
+        "Email ID": "drdkpazm2009@gmail.com"
+    },
+    {
+        "Sr. No.": 36,
+        "Name": "Ms. Rupam Verma",
+        "Qualification": "ANM",
+        "Designation": "PK Staff Nurse",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1730419200000,
+        "Contact No.": 8303352959,
+        "Email ID": "ruppudeep@gmail.com"
+    },
+    {
+        "Sr. No.": 37,
+        "Name": "Mr. Arun Kumar Thakur",
+        "Qualification": "Diploma",
+        "Designation": "PK Assistant",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1583193600000,
+        "Contact No.": 8318495135,
+        "Email ID": "goldenthakur308@gmail.com"
+    },
+    {
+        "Sr. No.": 38,
+        "Name": "Mr. Shafahad",
+        "Qualification": "Diploma",
+        "Designation": "PK Assistant",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1730419200000,
+        "Contact No.": 7394844794,
+        "Email ID": "ahamaddrshahfad@gmail.com"
+    },
+    {
+        "Sr. No.": 39,
+        "Name": "Mrs. Jyoti Devi",
+        "Qualification": "Diploma",
+        "Designation": "PK Assistant",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1583193600000,
+        "Contact No.": 9838781104,
+        "Email ID": "goldenthakur308@gmail.com"
+    },
+    {
+        "Sr. No.": 40,
+        "Name": "Mrs. Priyanka Yadav",
+        "Qualification": "Diploma",
+        "Designation": "PK Assistant",
+        "Working Department": "Panchkarma Therapy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1682294400000,
+        "Contact No.": 9450238469,
+        "Email ID": "priyankayadav260419@gmail.com"
+    },
+    {
+        "Sr. No.": 41,
+        "Name": "Ms. Pooja Modanwal",
+        "Qualification": "ANM",
+        "Designation": "Staff Nurse Midwife",
+        "Working Department": "Labour Room",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1588291200000,
+        "Contact No.": 7991266265,
+        "Email ID": "poojamodanwal244@gmail.com"
+    },
+    {
+        "Sr. No.": 42,
+        "Name": "Ms. Anju Prajapati",
+        "Qualification": "GNM",
+        "Designation": "Staff Nurse",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1586736000000,
+        "Contact No.": 7318494761,
+        "Email ID": "anjuprajapati0801@gmail.com"
+    },
+    {
+        "Sr. No.": 43,
+        "Name": "Mrs. Suman Devi",
+        "Qualification": "GNM",
+        "Designation": "Staff Nurse",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1704067200000,
+        "Contact No.": 8795309912,
+        "Email ID": "suman879530@gmail.com"
+    },
+    {
+        "Sr. No.": 44,
+        "Name": "Ms. Pratistha Yadav",
+        "Qualification": "GNM",
+        "Designation": "Staff Nurse",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1648857600000,
+        "Contact No.": 8738886770,
+        "Email ID": "kupratishthay@gmail.com"
+    },
+    {
+        "Sr. No.": 45,
+        "Name": "Ms. Sonalee Rajbhar",
+        "Qualification": "ANM",
+        "Designation": "Staff Nurse",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1693526400000,
+        "Contact No.": 7236993477,
+        "Email ID": "sonalirajbhar000@gmail.com"
+    },
+    {
+        "Sr. No.": 46,
+        "Name": "Ms. Poonam Yadav",
+        "Qualification": "GNM",
+        "Designation": "Staff Nurse",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1690848000000,
+        "Contact No.": 9519190094,
+        "Email ID": "poonamyadav7736@gmail.com"
+    },
+    {
+        "Sr. No.": 47,
+        "Name": "Mr. Awadhesh Kumar Kannaojiya",
+        "Qualification": "DMLT",
+        "Designation": "Lab Technician",
+        "Working Department": "Clinical Laboratory",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1709251200000,
+        "Contact No.": 6307006576,
+        "Email ID": "monukumar32372@gmail.com"
+    },
+    {
+        "Sr. No.": 48,
+        "Name": "Mr. Shivam Yadav",
+        "Qualification": "DMLT",
+        "Designation": "Lab Technician",
+        "Working Department": "Clinical Laboratory",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1726444800000,
+        "Contact No.": 8808880167,
+        "Email ID": "shivamyadavshivamyadav62637@gmail.com"
+    },
+    {
+        "Sr. No.": 49,
+        "Name": "Mr. Adanan Khan",
+        "Qualification": "12th",
+        "Designation": "Lab Attendant",
+        "Working Department": "Clinical Laboratory",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1709251200000,
+        "Contact No.": 9598675645,
+        "Email ID": "am9701504@gmail.com"
+    },
+    {
+        "Sr. No.": 50,
+        "Name": "Mr. Triveni Kumar",
+        "Qualification": "Diploma",
+        "Designation": "Ayurvedic Pharmacist",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1583798400000,
+        "Contact No.": 8534937175,
+        "Email ID": "trivenikumar695@gmail.com"
+    },
+    {
+        "Sr. No.": 51,
+        "Name": "Mr. Naveen Yadav",
+        "Qualification": "Diploma",
+        "Designation": "Ayurvedic Pharmacist",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1731283200000,
+        "Contact No.": 6388182648,
+        "Email ID": "drxny@gmail.com"
+    },
+    {
+        "Sr. No.": 52,
+        "Name": "Mr. Manish Srivastava",
+        "Qualification": "Graduate",
+        "Designation": "Attendant",
+        "Working Department": "Teaching Pharmacy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599609600000,
+        "Contact No.": 9818815332,
+        "Email ID": "manish12345shi@gmail.com"
+    },
+    {
+        "Sr. No.": 53,
+        "Name": "Mrs. Sunita Devi",
+        "Qualification": "Less 10th",
+        "Designation": "Worker",
+        "Working Department": "Teaching Pharmacy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599609600000,
+        "Contact No.": 7800516965,
+        "Email ID": "SY421888@gmail.com"
+    },
+    {
+        "Sr. No.": 54,
+        "Name": "Mrs. Rinka Rai",
+        "Qualification": "Less 10th",
+        "Designation": "Worker",
+        "Working Department": "Teaching Pharmacy",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599609600000,
+        "Contact No.": 6391982528,
+        "Email ID": "rk0888@gmail.com"
+    },
+    {
+        "Sr. No.": 55,
+        "Name": "Mr. Anand Vishwakarma",
+        "Qualification": "Diploma",
+        "Designation": "Registration",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599091200000,
+        "Contact No.": 8924879228,
+        "Email ID": "dnanahot07@gmail.com"
+    },
+    {
+        "Sr. No.": 56,
+        "Name": "Ms. Bhumi Sahu",
+        "Qualification": "12th",
+        "Designation": "Registration",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1733097600000,
+        "Contact No.": 9653245050,
+        "Email ID": "shivamsahu826634@gmail.com"
+    },
+    {
+        "Sr. No.": 57,
+        "Name": "Mrs. Dimpal Yadav",
+        "Qualification": "12th",
+        "Designation": "Registration",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1605484800000,
+        "Contact No.": 8090275663,
+        "Email ID": null
+    },
+    {
+        "Sr. No.": 58,
+        "Name": "Mr. Gopi",
+        "Qualification": "12th",
+        "Designation": "Ward Boy",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599091200000,
+        "Contact No.": 7234081884,
+        "Email ID": "gopisaroj7233@gmail.com"
+    },
+    {
+        "Sr. No.": 59,
+        "Name": "Mr. Vivek Sharma",
+        "Qualification": "12th",
+        "Designation": "Ward Boy",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599091200000,
+        "Contact No.": 9219276072,
+        "Email ID": "viveksharmavs2708119@gmail.com"
+    },
+    {
+        "Sr. No.": 60,
+        "Name": "Mr. Arshad",
+        "Qualification": "12th",
+        "Designation": "Dresser",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599091200000,
+        "Contact No.": 7704994922,
+        "Email ID": "moharshad03333@gmail.com"
+    },
+    {
+        "Sr. No.": 61,
+        "Name": "Mr. Dharmendra Kumar",
+        "Qualification": "Less 10th",
+        "Designation": "Dresser",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1709251200000,
+        "Contact No.": 83189452425,
+        "Email ID": " "
+    },
+    {
+        "Sr. No.": 62,
+        "Name": "Mrs.Sita Devi",
+        "Qualification": "Less 10th",
+        "Designation": "Ward Aaya",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1580601600000,
+        "Contact No.": 7706897290,
+        "Email ID": "sitadevi79@gmail.com"
+    },
+    {
+        "Sr. No.": 63,
+        "Name": "Mr. Akash Yadav",
+        "Qualification": "12th",
+        "Designation": "Store keeper",
+        "Working Department": "Hospital",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599091200000,
+        "Contact No.": 8881698730,
+        "Email ID": "yadavakash08299@gmail.com"
+    },
+    {
+        "Sr. No.": 64,
+        "Name": "Mr. Govind Singh",
+        "Qualification": "12th",
+        "Designation": "Electrician",
+        "Working Department": "others",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1599177600000,
+        "Contact No.": 9557885997,
+        "Email ID": "govindsingh8182047914@gmail.com"
+    },
+    {
+        "Sr. No.": 65,
+        "Name": "Mr.Ravikant",
+        "Qualification": "Less 10th",
+        "Designation": "Peon",
+        "Working Department": "others",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1733097600000,
+        "Contact No.": 9871043184,
+        "Email ID": null
+    },
+    {
+        "Sr. No.": 66,
+        "Name": "Mr. Santosh Mishra",
+        "Qualification": "Less 10th",
+        "Designation": "Driver",
+        "Working Department": "others",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1690848000000,
+        "Contact No.": 8423074211,
+        "Email ID": null
+    },
+    {
+        "Sr. No.": 67,
+        "Name": "Mr. Vijayshankar Rai",
+        "Qualification": "12th",
+        "Designation": "Driver",
+        "Working Department": "others",
+        "Nature of Appointment": "Regular",
+        "Date of Appointment": 1578528000000,
+        "Contact No.": 7706897290,
+        "Email ID": "vijayshankarvijayshankar9284@gmail.com"
+    }
+]
+  
+  const columns = [
+    {
+      name: 'Sr. No.',
+      selector: row => row["Sr. No."],
+    },
+    {
+      name: 'Name',
+      selector: row => row["Name"],
+      wrap: true
+    },
+    {
+      name: 'Qualification',
+      selector: row => row["Qualification"],
+    },
+    {
+      name: 'Designation',
+      selector: row => row["Designation"],
+    },
+    {
+      name: 'Working Department',
+      selector: row => row["Working Department"],
+    },
+    {
+      name: 'Nature of Appointment',
+      selector: row => row["Nature of Appointment"],
+    },
+    {
+        name: 'Date of Appointment',
+        selector: row => {
+          if (!row["Date of Appointment"]) {
+            return ;
+          }
+            const date = new Date(row["Date of Appointment"]).getDate();
+            const mnth = new Date(row["Date of Appointment"]).getMonth()+1;
+            const fyear = new Date(row["Date of Appointment"]).getFullYear();
+            console.log(date);
+            
+         console.log(`${date}/${mnth}/${fyear}`);
+         
+            return `${date}/${mnth}/${fyear}`;
+        },
+    },
+    {
+      name: 'Contact No.',
+      selector: row => row["Contact No."],
+    },
+    {
+      name: 'Email ID',
+      selector: row => row["Email ID"],
+      wrap: true
+    }
+];
+
+
   return (
     <div>
-      <div className="sHeading">List of Hospital Staff</div>
-
-      <table className="table table-striped table-hover">
-        {" "}
-        <thead>
-          {" "}
-          <tr className="alert alert-success alert-dismissable">
-            {" "}
-            <th>Sr. No.</th> <th>Name</th>
-            <th>Qualification</th>
-            <th>Designation</th> <th>Working Department</th>{" "}
-            <th>Nature of Appointment</th> <th>Date of Appointment</th>{" "}
-            <th>Contact No.</th> <th>Email ID</th>{" "}
-          </tr>{" "}
-        </thead>{" "}
-        <tbody>
-          {" "}
-          <tr>
-            <td>1</td>
-            <td>Dr. Monika Rani</td>
-            <td>BAMS, MD</td>
-            <td>Consultant</td>
-            <td>Kaumarbhritya- Bal Rog</td>
-            <td>Regular</td>
-            <td>08/11/2023</td>
-            <td>9455589033</td>
-            <td>drmoneekasingh2013@gmail.com</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Dr. Badal Rao</td>
-            <td>BAMS, MD</td>
-            <td>Consultant</td>
-            <td>Kaya Chikitsa</td>
-            <td>Regular</td>
-            <td>12/12/2022</td>
-            <td>7304527180</td>
-            <td>dr.badalrai@gmail.com</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Dr. Vineet Kumar Singh</td>
-            <td>BAMS, MS</td>
-            <td>Consultant</td>
-            <td>Shalya Tantra</td>
-            <td>Regular</td>
-            <td>01/01/2022</td>
-            <td>9453365880</td>
-            <td>vineetsinghbhu07@gmail.com</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Dr. Shaileshwari Yadav</td>
-            <td>BAMS, MS</td>
-            <td>Consultant</td>
-            <td>Prasuti Tantra evam Stri Rog</td>
-            <td>Regular</td>
-            <td>08/05/2022</td>
-            <td>9565334833</td>
-            <td>shaileshwariy@gmail.com</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Dr. Richa Gupta </td>
-            <td>BAMS, MD</td>
-            <td>Consultant</td>
-            <td>Swasthvritta &amp; Yoga</td>
-            <td>Regular</td>
-            <td>12/26/2023</td>
-            <td>9125367373</td>
-            <td>drrichagupta090@gmail.com</td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Dr. Ashwini T.S.</td>
-            <td>BAMS, MD</td>
-            <td>Consultant</td>
-            <td>Panchkarma</td>
-            <td>Regular</td>
-            <td>04/02/2022</td>
-            <td>9742351947</td>
-            <td>dr.ashwini4u@gmail.com</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>Dr. Ajay Kumar Anand</td>
-            <td>BAMS, MS</td>
-            <td>Consultant</td>
-            <td>Shalakya(EYE)</td>
-            <td>Regular</td>
-            <td>2/17/2023</td>
-            <td>8318913948</td>
-            <td>drajayanand24@gmail.com</td>
-          </tr>
-          <tr>
-            <td>8</td>
-            <td>Dr. Ashutosh Kumar Roy</td>
-            <td>BAMS, MS</td>
-            <td>Consultant</td>
-            <td>Shalakya(ENT)</td>
-            <td>Regular</td>
-            <td>07/10/2023</td>
-            <td>9883775959</td>
-            <td>ashutoshroy248@gmail.com</td>
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>Dr. Ram Avadh Yadav</td>
-            <td>MBBS, MD</td>
-            <td>Peadiatrician</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/06/2020</td>
-            <td>9415273329</td>
-            <td>drrayadav54@gmail.com</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Dr. Shakuntala Yadav</td>
-            <td>MBBS, MS</td>
-            <td>Obs &amp; Gyne</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/06/2020</td>
-            <td>9918905642</td>
-            <td>drsakuntalay@gmail.com</td>
-          </tr>
-          <tr>
-            <td>11</td>
-            <td>Dr Anand Vardhan</td>
-            <td>MBBS, MS</td>
-            <td>Surgeon</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>02/03/2020</td>
-            <td>6390691111</td>
-            <td>dranandkds@gmail.com</td>
-          </tr>
-          <tr>
-            <td>12</td>
-            <td>Dr Anshu Kumari</td>
-            <td>MBBS, MD</td>
-            <td>Physician</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>02/03/2020</td>
-            <td>9918905624</td>
-            <td>anshukumari87@gmail.com</td>
-          </tr>
-          <tr>
-            <td>13</td>
-            <td>Dr Ram Narayan</td>
-            <td>MBBS, MD</td>
-            <td>Pathologist</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/03/2020</td>
-            <td>8859921803</td>
-            <td>drramnarayan02222@gmail.com</td>
-          </tr>
-          <tr>
-            <td>14</td>
-            <td>Dr Anil Gupta</td>
-            <td>MBBS, MD</td>
-            <td>Anaestesiologist</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/06/2020</td>
-            <td>9129773253</td>
-            <td>dranilgupta01111@gmail.com</td>
-          </tr>
-          <tr>
-            <td>15</td>
-            <td>Dr. Dheerendra Bahadur Singh</td>
-            <td>MBBS, MD</td>
-            <td>Radiologist</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/09/2020</td>
-            <td>9415257235</td>
-            <td>drdbsingh010766@gmail.com</td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>Dr Dinesh Chandra Kushwaha</td>
-            <td>MBBS, MS</td>
-            <td>Ophthalmologist</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/04/2020</td>
-            <td>9918952777</td>
-            <td>drdckushwaha010158@gmail.com</td>
-          </tr>
-          <tr>
-            <td>17</td>
-            <td>Dr Ayushi Yadav</td>
-            <td>BDS, MDS</td>
-            <td>Dentist</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>01/06/2020</td>
-            <td>9919185005</td>
-            <td>ydvayushi31@gmail.com</td>
-          </tr>
-          <tr>
-            <td>18</td>
-            <td>Mr. Sanjay Kumar Gupta</td>
-            <td>M. Pharma</td>
-            <td>Pharmacognosist</td>
-            <td>Teaching Pharmacy</td>
-            <td>Part Time</td>
-            <td>10/01/2020</td>
-            <td>9648359044</td>
-            <td>gupta.sanjay31@gmail.com</td>
-          </tr>
-          <tr>
-            <td>19</td>
-            <td>Mr. Rajaram</td>
-            <td>M. Pharma</td>
-            <td>Analytical Chemist</td>
-            <td>Teaching Pharmacy</td>
-            <td>Part Time</td>
-            <td>10/01/2020</td>
-            <td>8756144633</td>
-            <td>raja.ram4892@gmail.com</td>
-          </tr>
-          <tr>
-            <td>20</td>
-            <td>Dr.Ajay Yadav</td>
-            <td>BPT, MPT</td>
-            <td>Physiotherapist</td>
-            <td>Modern Medical Staff</td>
-            <td>Part Time</td>
-            <td>02/01/2024</td>
-            <td>9838676285</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>21</td>
-            <td>Dr. Arun Kumar Tiwari</td>
-            <td>BAMS</td>
-            <td>Depty Medical Suprintendent</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>8/19/2022</td>
-            <td>9451161226</td>
-            <td>draruntiwari12sep1957@gmail.com</td>
-          </tr>
-          <tr>
-            <td>22</td>
-            <td>Dr. Vivek kumar Tripathi</td>
-            <td>BAMS</td>
-            <td>EMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>02/06/2023</td>
-            <td>8853166222</td>
-            <td>dr.tripathi.vivek@gmail.com</td>
-          </tr>
-          <tr>
-            <td>23</td>
-            <td>Dr. Harsh Vikram Singh</td>
-            <td>BAMS</td>
-            <td>EMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>05/01/2023</td>
-            <td>7388449968</td>
-            <td>harshvikramsingh1992@gmail.com</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>Dr. Pankaj Prajapati</td>
-            <td>BAMS</td>
-            <td>RMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>02/02/2021</td>
-            <td>8318930360</td>
-            <td>pankajprajapati896@gmail.com</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>Dr. Monica Yadav</td>
-            <td>BAMS</td>
-            <td>RMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>05/01/2023</td>
-            <td>7696192071</td>
-            <td>monicayadav2695@gmail.com</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>Dr. Ravindra Kumar Yadav </td>
-            <td>BAMS</td>
-            <td>RMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>01/02/2024</td>
-            <td>8318705273</td>
-            <td>ravindra45yadav@gmail.com</td>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>Dr. Sheetal Tripathi</td>
-            <td>BAMS</td>
-            <td>RMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>02/06/2023</td>
-            <td>6386104840</td>
-            <td>sheetaltripathi89527@gmail.com</td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>Dr. Iffat Yasmin</td>
-            <td>BAMS</td>
-            <td>RMO</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>04/05/2021</td>
-            <td>7618976309</td>
-            <td>iffaty64@gmail.com</td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>Mr. Satendra Yadav</td>
-            <td>Graduate</td>
-            <td>Yoga teacher or expert</td>
-            <td>Panchkarma Therapy</td>
-            <td>Part Time</td>
-            <td>10/05/2020</td>
-            <td>8739099023</td>
-            <td>sy421888@gmail.com</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>Mr. Avanish Kumar Maurya</td>
-            <td>Diploma</td>
-            <td>X-ray Technician</td>
-            <td>Modern Medical Staff</td>
-            <td>Regular</td>
-            <td>8/14/2020</td>
-            <td>9198133194</td>
-            <td>avaneesh088@gmail.com</td>
-          </tr>
-          <tr>
-            <td>31</td>
-            <td>Mr. Krishna Yadav</td>
-            <td>12th</td>
-            <td>Dark Room Attendant</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/02/2020</td>
-            <td>6306670550</td>
-            <td>yadavgillu246@gmail.com</td>
-          </tr>
-          <tr>
-            <td>32</td>
-            <td>Ms. Priyanka Yadav</td>
-            <td>Msc Nursing</td>
-            <td>Matron</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>01/03/2023</td>
-            <td>8174981757</td>
-            <td>yadavpriyanka1705@gmail.com</td>
-          </tr>
-          <tr>
-            <td>33</td>
-            <td>Mr. Sunil Yadav</td>
-            <td>Msc Nursing</td>
-            <td>Assistant Matron</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>11/03/2022</td>
-            <td>6391863147</td>
-            <td>sunilking8565@gmail.com</td>
-          </tr>
-          <tr>
-            <td>34</td>
-            <td>Mr. Shashi Prakash</td>
-            <td>Diploma</td>
-            <td>OT Technician</td>
-            <td>Operation Theater</td>
-            <td>Regular</td>
-            <td>08/01/2020</td>
-            <td>8787204492</td>
-            <td>prakashshi28@gmail.com</td>
-          </tr>
-          <tr>
-            <td>35</td>
-            <td>Mr. Sabhashish Kumar</td>
-            <td>12th</td>
-            <td>OT Attendant</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>01/03/2022</td>
-            <td>9792410705</td>
-            <td>sabhashishkumar9792410705@gmail.com</td>
-          </tr>
-          <tr>
-            <td>36</td>
-            <td>Ms. Roshani Bano</td>
-            <td>GNM</td>
-            <td>OT Nurse</td>
-            <td>Operation Theater</td>
-            <td>Regular</td>
-            <td>10/01/2020</td>
-            <td>7052742628</td>
-            <td>roshanisalmani1@gmail.com</td>
-          </tr>
-          <tr>
-            <td>37</td>
-            <td>Mr. Pramod kumar Yadav</td>
-            <td>12th</td>
-            <td>OT Attendant</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/02/2020</td>
-            <td>9451311510</td>
-            <td>pramodyadav05@gmail.com</td>
-          </tr>
-          <tr>
-            <td>38</td>
-            <td>Dr. Dharmendra Kumar Prajapati</td>
-            <td>BAMS</td>
-            <td>PK House Officer</td>
-            <td>Panchkarma Therapy</td>
-            <td>Regular</td>
-            <td>09/04/2020</td>
-            <td>7676868172</td>
-            <td>drdkpazm2009@gmail.com</td>
-          </tr>
-          <tr>
-            <td>39</td>
-            <td>Ms. Durgawati Yadav</td>
-            <td>ANM</td>
-            <td>PK Staff Nurse</td>
-            <td>Panchkarma Therapy</td>
-            <td>Regular</td>
-            <td>02/01/2022</td>
-            <td>7800948222</td>
-            <td>sanjay5956772@gmail.com</td>
-          </tr>
-          <tr>
-            <td>40</td>
-            <td>Mr. Arun Kumar Thakur</td>
-            <td>Diploma</td>
-            <td>PK Assistant</td>
-            <td>Panchkarma Therapy</td>
-            <td>Regular</td>
-            <td>03/03/2020</td>
-            <td>8318495135</td>
-            <td>goldenthakur308@gmail.com</td>
-          </tr>
-          <tr>
-            <td>41</td>
-            <td>Mr. Satish Kumar Prajapati</td>
-            <td>Diploma</td>
-            <td>PK Assistant</td>
-            <td>Panchkarma Therapy</td>
-            <td>Regular</td>
-            <td>06/12/2020</td>
-            <td>9616876451</td>
-            <td>satishpra0363@gmail.com</td>
-          </tr>
-          <tr>
-            <td>42</td>
-            <td>Mrs. Jyoti Devi</td>
-            <td>Diploma</td>
-            <td>PK Assistant</td>
-            <td>Panchkarma Therapy</td>
-            <td>Regular</td>
-            <td>03/03/2020</td>
-            <td>9838781104</td>
-            <td>goldenthakur308@gmail.com</td>
-          </tr>
-          <tr>
-            <td>43</td>
-            <td>Mrs. Priyanka Yadav</td>
-            <td>Diploma</td>
-            <td>PK Assistant</td>
-            <td>Panchkarma Therapy</td>
-            <td>Regular</td>
-            <td>4/24/2023</td>
-            <td>9450238469</td>
-            <td>priyankayadav260419@gmail.com</td>
-          </tr>
-          <tr>
-            <td>44</td>
-            <td>Ms. Pooja Modanwal</td>
-            <td>ANM</td>
-            <td>Staff Nurse Midwife</td>
-            <td>Labour Room</td>
-            <td>Regular</td>
-            <td>05/01/2020</td>
-            <td>7991266265</td>
-            <td>poojamodanwal244@gmail.com</td>
-          </tr>
-          <tr>
-            <td>45</td>
-            <td>Ms. Anju Prajapati</td>
-            <td>GNM</td>
-            <td>Staff Nurse</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>4/13/2020</td>
-            <td>7318494761</td>
-            <td>anjuprajapati0801@gmail.com</td>
-          </tr>
-          <tr>
-            <td>46</td>
-            <td>Mrs. Suman Devi </td>
-            <td>GNM</td>
-            <td>Staff Nurse</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>01/01/2024</td>
-            <td>8795309912</td>
-            <td>suman879530@gmail.com</td>
-          </tr>
-          <tr>
-            <td>47</td>
-            <td>Ms. Pratistha Yadav</td>
-            <td>GNM</td>
-            <td>Staff Nurse</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>04/02/2022</td>
-            <td>8738886770</td>
-            <td>kupratishthay@gmail.com</td>
-          </tr>
-          <tr>
-            <td>48</td>
-            <td>Ms. Sonalee Rajbhar</td>
-            <td>ANM</td>
-            <td>Staff Nurse</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/01/2023</td>
-            <td>7236993477</td>
-            <td>sonalirajbhar000@gmail.com</td>
-          </tr>
-          <tr>
-            <td>49</td>
-            <td>Ms. Roshani Rajbhar</td>
-            <td>ANM</td>
-            <td>Staff Nurse</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>12/20/2022</td>
-            <td>7052100297</td>
-            <td>roshanirajbhar85@gmail.com</td>
-          </tr>
-          <tr>
-            <td>50</td>
-            <td>Ms. Poonam Yadav</td>
-            <td>GNM</td>
-            <td>Staff Nurse</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>08/01/2023</td>
-            <td>9519190094</td>
-            <td>poonamyadav7736@gmail.com</td>
-          </tr>
-          <tr>
-            <td>51</td>
-            <td>Mr. Immran Ali</td>
-            <td>DMLT</td>
-            <td>Lab Technician</td>
-            <td>Clinical Laboratory</td>
-            <td>Regular</td>
-            <td>08/01/2020</td>
-            <td>6307006576</td>
-            <td>monukumar32372@gmail.com</td>
-          </tr>
-          <tr>
-            <td>52</td>
-            <td>Mr. Rishank Kumar Yadav</td>
-            <td>DMLT</td>
-            <td>Lab Technician</td>
-            <td>Clinical Laboratory</td>
-            <td>Regular</td>
-            <td>2/18/2020</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>53</td>
-            <td>Ms. Abhishek Mishra</td>
-            <td>12th</td>
-            <td>Lab Attendant</td>
-            <td>Clinical Laboratory</td>
-            <td>Regular</td>
-            <td>09/02/2020</td>
-            <td>9151542873</td>
-            <td>am9701504@gmail.com</td>
-          </tr>
-          <tr>
-            <td>54</td>
-            <td>Mr. Ram Sajeevan</td>
-            <td>Diploma</td>
-            <td>Ayurvedic Pharmacist</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>07/04/2020</td>
-            <td>9935087945</td>
-            <td>ramsajveevan0777@gmail.com</td>
-          </tr>
-          <tr>
-            <td>55</td>
-            <td>Mr. Triveni Kumar</td>
-            <td>Diploma</td>
-            <td>Ayurvedic Pharmacist</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>03/10/2020</td>
-            <td>8534937175</td>
-            <td>trivenikumar695@gmail.com</td>
-          </tr>
-          <tr>
-            <td>56</td>
-            <td>Mr. Manish Srivastava</td>
-            <td>Graduate</td>
-            <td>Attendant</td>
-            <td>Teaching Pharmacy</td>
-            <td>Regular</td>
-            <td>09/09/2020</td>
-            <td>9818815332</td>
-            <td>manish12345shi@gmail.com</td>
-          </tr>
-          <tr>
-            <td>57</td>
-            <td>Mrs. Sunita Devi</td>
-            <td>Less 10th</td>
-            <td>Worker</td>
-            <td>Teaching Pharmacy</td>
-            <td>Regular</td>
-            <td>09/09/2020</td>
-            <td>7800516965</td>
-            <td>SY421888@gmail.com</td>
-          </tr>
-          <tr>
-            <td>58</td>
-            <td>Mrs. Rinka Rai</td>
-            <td>Less 10th</td>
-            <td>Worker</td>
-            <td>Teaching Pharmacy</td>
-            <td>Regular</td>
-            <td>09/09/2020</td>
-            <td>6391982528</td>
-            <td>rk0888@gmail.com</td>
-          </tr>
-          <tr>
-            <td>59</td>
-            <td>Mr. Anand Vishwakarma</td>
-            <td>Diploma</td>
-            <td>Registration</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/03/2020</td>
-            <td>8924879228</td>
-            <td>dnanahot07@gmail.com</td>
-          </tr>
-          <tr>
-            <td>60</td>
-            <td>Mr. Pankaj Kumar</td>
-            <td>Diploma</td>
-            <td>Registration</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>01//07/2023</td>
-            <td>7379360730</td>
-            <td>pankajmaurya333@gmail.com</td>
-          </tr>
-          <tr>
-            <td>61</td>
-            <td>Mrs. Dimpal Yadav</td>
-            <td>12th</td>
-            <td>Registration</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>11/16/2020</td>
-            <td>8090275663</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>62</td>
-            <td>Mr. Gopi</td>
-            <td>12th</td>
-            <td>Dresser</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/03/2020</td>
-            <td>7234081884</td>
-            <td>gopisaroj7233@gmail.com</td>
-          </tr>
-          <tr>
-            <td>63</td>
-            <td>Mr. Arshad</td>
-            <td>12th</td>
-            <td>Dresser</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/03/2020</td>
-            <td>7704994922</td>
-            <td>moharshad03333@gmail.com</td>
-          </tr>
-          <tr>
-            <td>64</td>
-            <td>Mr. Ratan Yadav</td>
-            <td>12th</td>
-            <td>Ward Boy</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>8/30/2020</td>
-            <td>9170383724</td>
-            <td>rchandrayadav98@gmail.com</td>
-          </tr>
-          <tr>
-            <td>65</td>
-            <td>Mr. Vivek Sharma</td>
-            <td>12th</td>
-            <td>Ward Boy</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/03/2020</td>
-            <td>9219276072</td>
-            <td>viveksharmavs2708119@gmail.com</td>
-          </tr>
-          <tr>
-            <td>66</td>
-            <td>Mrs.Sita Devi</td>
-            <td>Less 10th</td>
-            <td>Ward Aaya</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>02/02/2020</td>
-            <td>7706897290</td>
-            <td>sitadevi79@gmail.com</td>
-          </tr>
-          <tr>
-            <td>67</td>
-            <td>Mr. Akash Yadav</td>
-            <td>12th</td>
-            <td>Store keeper</td>
-            <td>Hospital</td>
-            <td>Regular</td>
-            <td>09/03/2020</td>
-            <td>8881698730</td>
-            <td>yadavakash08299@gmail.com</td>
-          </tr>
-          <tr>
-            <td>68</td>
-            <td>Mr. Govind Singh</td>
-            <td>12th</td>
-            <td>Electrician</td>
-            <td>others</td>
-            <td>Regular</td>
-            <td>09/04/2020</td>
-            <td>9557885997</td>
-            <td>govindsingh8182047914@gmail.com</td>
-          </tr>
-          <tr>
-            <td>69</td>
-            <td>Mr. Kalpanath</td>
-            <td>Less 10th</td>
-            <td>Peon</td>
-            <td>others</td>
-            <td>Regular</td>
-            <td>09/03/2020</td>
-            <td>7267055806</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>70</td>
-            <td>Mr. Santosh Mishra</td>
-            <td>Less 10th</td>
-            <td>Driver</td>
-            <td>others</td>
-            <td>Regular</td>
-            <td>08/01/2023</td>
-            <td>8423074211</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>71</td>
-            <td>Mr. Vijayshankar Rai</td>
-            <td>12th</td>
-            <td>Driver</td>
-            <td>others</td>
-            <td>Regular</td>
-            <td>01/09/2020</td>
-            <td>7706897290</td>
-            <td>vijayshankarvijayshankar9284@gmail.com</td>
-          </tr>
-        </tbody>{" "}
-      </table>
+      <div className="sHeading">Sr. No.</div>
+      <DataTable
+        columns={columns}
+        data={data}
+        pagination
+        expandableRows
+        expandableRowsComponent={ExpandedComponent}
+      />
     </div>
   );
 };

@@ -56,6 +56,8 @@ import Home from "./pages/Home/Home";
 import ApplyNowForm from "./components/ApplyNowForm";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import Lecturer from "./components/Lecturer";
+import Consultant from "./components/Consultant";
 
 const router = createBrowserRouter([
   {
@@ -208,6 +210,14 @@ const router = createBrowserRouter([
       {
         path: "md-final-year",
         element: <MDFinalYear />,
+      },
+      {
+path:"lecturer",
+element:<Lecturer/>
+      },
+      {
+path:"consultant",
+element:<Consultant/>
       },
       {
         path: "md-first-year",
