@@ -784,7 +784,7 @@ const ListofHospitalStaff = () => {
          console.log(`${date}/${mnth}/${fyear}`);
          
             return `${date}/${mnth}/${fyear}`;
-        },
+        },  
     },
     {
       name: 'Contact No.',
