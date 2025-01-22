@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../routes/imageGallery.css";
-import img1 from "/homeG/sh9.avif";
+import img1 from "/homeG/liberary.avif";
 import img2 from "/homeG/sh14.avif";
 import img3 from "/homeG/sh16.avif";
 import img4 from "/homeG/sh39.avif";

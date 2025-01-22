@@ -4,13 +4,14 @@ import body from "/hero/body.avif";
 import lab from "/hero/lab.avif";
 import top from "/hero/top.avif";
 import front from "/hero/front.avif";
-import students from "/hero/students.avif";
+// import students from "/hero/students.avif";
+import b1 from "/hero/b1.jpg"
 import inner from "/hero/inner.avif";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Outlet } from "react-router-dom";
 
-const heroimages = [front, students, body, top, lab, inner];
+const heroimages = [front, b1, body, top, lab, inner];
 
 const Hero = () => {
   return (
