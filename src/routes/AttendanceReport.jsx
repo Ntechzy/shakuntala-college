@@ -3,6 +3,8 @@ import "./attendanceReport.css";
 import { menuItemsData } from "../menuItemsData";
 
 const att = menuItemsData[3].submenu[7].submenu;
+console.log(menuItemsData[3]);
+
 const AttendanceReport = () => {
   return (
     <>
