@@ -1,5 +1,5 @@
 import React from "react";
-import principal from "/principal.png";
+import principal from "/principal.jpeg";
 import "./people.css";
 
 const Principal = () => {
@@ -11,10 +11,10 @@ const Principal = () => {
           <div className="person">
             <div className="people-card">
               <img src={principal} alt="" className="person-img" />
-              <p className="person-name">Dr Anil Kumar Tripathi</p>
-              <p className="person-des"> Principal/Professor </p>
-              <p className="person-phone"> +91-9935568575 </p>
-              <p className="person-mail"> drshivesh81@gmail.com </p>
+              <p className="person-name">Dr Beena tripathi</p>
+              <p className="person-des"> Principal </p>
+              {/*<p className="person-phone"> +91-9935568575 </p>*/}
+              {/*<p className="person-mail"> drshivesh81@gmail.com </p>*/}
             </div>
             <p>
               Ayurveda is a 5,000-year-old system of natural healing that has

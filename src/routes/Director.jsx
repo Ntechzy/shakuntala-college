@@ -1,5 +1,5 @@
 import React from "react";
-import vc from "/vc.png";
+import vc from "/dr_vc_mgu.jpg";
 import "./people.css";
 
 const Director = () => {
@@ -11,10 +11,10 @@ const Director = () => {
           <div className="person">
             <div className="people-card">
               <img src={vc} alt="" className="person-img" />
-              <p className="person-name">Prof. Vandana Singh</p>
+              <p className="person-name">Dr. Surinder Singh</p>
               <p className="person-des"> Vice Chancellor (V.B.S.P.U.) </p>
-              <p className="person-phone"> 05452- 252299 </p>
-              <p className="person-mail"> vc_vbspuniversity@rediffmail.com </p>
+              {/*<p className="person-phone"> 05452- 252299 </p>*/}
+              {/*<p className="person-mail"> vc_vbspuniversity@rediffmail.com </p>*/}
             </div>
             <p>
               The globalization of society has placed the entire world under one

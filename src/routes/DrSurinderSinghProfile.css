@@ -16,6 +16,7 @@
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ccc;
+    object-position: top;
 }
 
 .profile-content {

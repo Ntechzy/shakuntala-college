@@ -82,6 +82,7 @@
   border-radius: 8px;
   font-size: 1.1rem;
   box-shadow: 0 0 8px #cbcdcf;
+  overflow: auto;
   /* dimag ghumne ke baad */
   /* 
   position: relative;
