@@ -70,7 +70,7 @@ const InnerPages = ({ heading, sidemenu, url }) => {
               {sidemenu.map((item, index) => (
                 <div
                   className="inner-rightItems"
-                  key={item.url}
+                  key={index}
                   ref={refs[index]}
                 >
                   <div className="inner-content" id={item.url}>

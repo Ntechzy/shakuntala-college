@@ -5,30 +5,24 @@ const VcOfMgu = () => {
         <div className="profile-container">
             <div className="profile-image">
                 <img
-                    src="/dr_vc_mgu.jpg" // Replace with Dr. Surinder Singh's image URL
+                    src="/dr_vc_mgu.jpg"
                     alt="Dr. Surinder Singh"
                 />
             </div>
             <div className="profile-content">
-                <h2>Dr. Surinder Singh</h2>
+                <h2>Prof Dr Awadhesh Kumar Singh</h2>
+                <h4>Vice Chancellor. </h4>
+                <strong>
+                    <p>
+                        (Mahayogi Guru Gorakhnath AYUSH University)
+                    </p>
+                </strong>
                 <p>
-                    Dr. Surinder Singh is an accomplished academician and healthcare leader
-                    with over 40 years of experience in academia, research, and regulatory
-                    affairs. He holds an MBBS and an MD in Microbiology and has served in
-                    several prestigious roles, including as the Vice Chancellor of JSS Academy
-                    of Higher Education & Research, Mysuru, and as the Drugs Controller General
-                    of India.
+                    Prof Dr Awadhesh Kumar Singh is appointed as the first Vice Chancellor of Mahayogi Guru Gorakhnath AYUSH University, Gorakhpur Uttar Pradesh on 4th of January 2022 and he had joined on 6th of January. He was primarily Director & Principal of Shubhdeep Ayurvedic medical College & Hospital, Indore, Madhya Pradesh for fourteen years. He has completed BAMS in 1984 and MD Ayurved in 1989 from Calcutta University. He is continuing his services in Ayurveda Therapy, education and innovation since the last thirty 35 years. He is giving his services with PG committee, UGC and PG expert. Furthermore, he is the Chairman of Devi Ahilya University, Indore and member of Studies in Madhya Pradesh Medical Science University.
                 </p>
                 <p>
-                    A globally recognized expert, Dr. Singh has contributed significantly to
-                    public health, pharmaceutical regulation, and academic leadership. Under
-                    his guidance, JSS AHER achieved numerous milestones, including securing a
-                    top 25 position in the National Institutional Ranking Framework (NIRF) and
-                    being ranked World No. 1 in the United Nations Sustainable Development Goal
-                    3 (Good Health & Well-Being) in the Times Higher Education Impact Rankings
-                    2024. His leadership has resulted in a surge in research output, securing
-                    over Rs. 55 crores in research grants, and fostering international
-                    collaborations across 58 countries.
+                    He PG Guide of forty-eight students and organized 04 National seminars. He was invited as the best speaker in America in 1999. He is giving his valuable services in different National and International Universities. More than sixty seven papers have been published by Dr Singh and was involved physically in the trial process for more than eighty four medicines.
+
                 </p>
             </div>
         </div>

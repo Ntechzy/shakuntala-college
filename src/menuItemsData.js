@@ -170,7 +170,8 @@ export const menuItemsData = [
         submenu: [
           {
             title: "BAMS Students Attendance",
-            url: "bams-students-attendance",
+            url: "/std_attendence.pdf",
+            target: "_blank"
           },
           {
             title: "Teaching Staff Attendance",
