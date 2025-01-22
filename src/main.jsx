@@ -211,10 +211,10 @@ const router = createBrowserRouter([
         path: "md-final-year",
         element: <MDFinalYear />,
       },
-      {
-path:"lecturer",
-element:<Lecturer/>
-      },
+//       {
+// path:"lecturer",
+// element:<Lecturer/>
+//       },
       {
 path:"consultant",
 element:<Consultant/>
