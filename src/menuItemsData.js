@@ -142,10 +142,10 @@ export const menuItemsData = [
             title: "Hospital Staff",
             url: "hospital-staff",
           },
-          {
-            title: "Lecturer",
-            url: "lecturer",
-          },
+          // {
+          //   title: "Lecturer",
+          //   url: "lecturer",
+          // },
           {
             title: "Consultant",
             url: "consultant",
