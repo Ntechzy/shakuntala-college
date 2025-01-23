@@ -1,3 +1,6 @@
+import PrincipalMedicalSuperintendent from "./routes/PrincipalMedicalSuperintendent";
+import Superintendent from "./routes/Superitendent";
+
 export const menuItemsData = [
   {
     title: "Home",
@@ -111,12 +114,14 @@ export const menuItemsData = [
     url: "/ncism-mandate",
     submenu: [
       {
-        title: "Principal and Medical Superintendent",
+        title: "Principal",
         url: "/ncism-mandate/#principal-medical-superintendent",
+        content: PrincipalMedicalSuperintendent,
       },
       {
-        title: "Vice chancellor of Mahayogi Gorakhnath University",
-        url: "/ncism-mandate/#vice-chancellor-of-mgu",
+        title: " Medical Superintendent",
+        url: "/ncism-mandate/#medical-superintendent",
+        content: Superintendent,
       },
       {
         title: "Intake Capacity",

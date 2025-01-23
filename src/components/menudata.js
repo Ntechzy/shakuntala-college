@@ -29,6 +29,7 @@ import HospitalOpdIpdData from "../routes/HospitalOpdIpdData";
 import OtherHospitaldata from "../routes/OtherHospitaldata";
 import StaffList from "../routes/StaffList";
 import VcOfMgu from "../routes/VcOfMgu";
+import Superintendent from "../routes/Superitendent";
 
 export const menuData = [
   {
@@ -206,9 +207,14 @@ export const menuData = [
     url: "/ncism-mandate",
     submenu: [
       {
-        title: "Principal and Medical Superintendent",
+        title: "Principal",
         url: "principal-medical-superintendent",
         content: PrincipalMedicalSuperintendent,
+      },
+      {
+        title: " Medical Superintendent",
+        url: "medical-superintendent",
+        content: Superintendent,
       },
       {
         title: "Vice chancellor of Mahayogi Gorakhnath University",

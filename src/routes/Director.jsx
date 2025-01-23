@@ -12,7 +12,9 @@ const Director = () => {
             <div className="people-card">
               <img src={vc} alt="" className="person-img" />
               <p className="person-name">Prof Dr Awadhesh Kumar Singh</p>
-              <p className="person-des"> Vice Chancellor (V.B.S.P.U.) </p>
+              <p className="person-des"> Vice Chancellor (M.G.G.A.U) </p>
+              <p className="person-des"> 8810724949 </p>
+              <p className="person-des">  vc@mggaugkp.in </p>
               {/*<p className="person-phone"> 05452- 252299 </p>*/}
               {/*<p className="person-mail"> vc_vbspuniversity@rediffmail.com </p>*/}
             </div>

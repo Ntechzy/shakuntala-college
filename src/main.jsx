@@ -58,6 +58,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Lecturer from "./components/Lecturer";
 import Consultant from "./components/Consultant";
+import Superintendent from "./routes/Superitendent";
 
 const router = createBrowserRouter([
   {
@@ -276,8 +277,12 @@ const router = createBrowserRouter([
         element: <Principal />,
       },
       {
-        path: "principal-medical-superintendent",
+        path: "ncism-mandate/principal-medical-superintendent",
         element: <PrincipalMedicalSuperintendent />,
+      },
+      {
+        path: "ncism-mandate/medical-superintendent",
+        element: <Superintendent/>,
       },
       {
         path: "research-publications",

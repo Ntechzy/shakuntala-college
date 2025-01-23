@@ -2,7 +2,8 @@ import React from "react";
 
 const OpenExcelButton = () => {
   const handleOpenFile = () => {
-    const officeViewerUrl = `https://docs.google.com/spreadsheets/d/1xKkUwSjGcgGA1CmLuV-H4sp8kjCOxwFk/edit?usp=sharing&ouid=112082225873776179523&rtpof=true&sd=true`;
+    // const officeViewerUrl = `https://docs.google.com/spreadsheets/d/1xKkUwSjGcgGA1CmLuV-H4sp8kjCOxwFk/edit?usp=sharing&ouid=112082225873776179523&rtpof=true&sd=true`;
+    const officeViewerUrl = `/pdf/studentlist.pdf`;
     window.open(officeViewerUrl, "_blank");
   };
 
@@ -20,7 +21,7 @@ const OpenExcelButton = () => {
           cursor: "pointer",
         }}
       >
-        Preview Excel File
+        Preview Pdf File
       </button>
     </div>
   );

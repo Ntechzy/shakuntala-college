@@ -1,7 +1,9 @@
 import React from "react";
 
 const Affiliations = () => {
-  return <div>Affiliations</div>;
+  return <div>
+ Mahayogi Guru Gorakhnath AYUSH University, Gorakhpur
+  </div>;
 };
 
 export default Affiliations;
