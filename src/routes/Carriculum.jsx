@@ -16,14 +16,15 @@ const Carriculum = () => {
       </div>
 
       {/* Display images below */}
-      {/* <div className="images-container">
+      <div className="images-container">
         <h3>Some Images</h3>
         <div className="image-gallery">
-          <img src="/path/to/your/image1.jpg" alt="Image 1" className="carriculum-image" />
-          <img src="/path/to/your/image2.jpg" alt="Image 2" className="carriculum-image" />
-          <img src="/path/to/your/image3.jpg" alt="Image 3" className="carriculum-image" />
+          <img src="/curriculum-image/c1.jpg" alt="Image 1" className="carriculum-image" />
+          <img src="/curriculum-image/c2.jpg" alt="Image 2" className="carriculum-image" />
+          <img src="/curriculum-image/c3.jpg" alt="Image 3" className="carriculum-image" />
+        
         </div>
-      </div> */}
+      </div>
 
       <style jsx>{`
         .carriculum-container {

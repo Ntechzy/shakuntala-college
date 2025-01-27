@@ -219,7 +219,7 @@ export const menuData = [
         content: Superintendent,
       },
       {
-        title: "Vice chancellor of Mahayogi Gorakhnath University",
+        title: "Vice chancellor Mahayogi Guru Gorakhnath Ayush University",
         url: "vice-chancellor-of-mgu",
         content: VcOfMgu,
       },
