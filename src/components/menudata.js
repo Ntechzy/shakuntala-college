@@ -30,6 +30,7 @@ import OtherHospitaldata from "../routes/OtherHospitaldata";
 import StaffList from "../routes/StaffList";
 import VcOfMgu from "../routes/VcOfMgu";
 import Superintendent from "../routes/Superitendent";
+import NewsSection from "../routes/NewsSection";
 
 export const menuData = [
   {
@@ -345,6 +346,11 @@ export const menuData = [
         title: "Video Gallery",
         url: "video-gallery",
         content: VideoGallery,
+      },
+      {
+        title: "News Section",
+        url: "news-section",
+        content: NewsSection,
       },
       {
         title: "Events",

@@ -59,6 +59,7 @@ import Navbar from "./components/Navbar";
 import Lecturer from "./components/Lecturer";
 import Consultant from "./components/Consultant";
 import Superintendent from "./routes/Superitendent";
+import NewsSection from "./routes/NewsSection";
 
 const router = createBrowserRouter([
   {
@@ -203,6 +204,10 @@ const router = createBrowserRouter([
       {
         path: "image-gallery",
         element: <ImageGallery />,
+      },
+      {
+        path: "news-section",
+        element: <NewsSection />,   
       },
       {
         path: "intake-capacity",

@@ -250,6 +250,10 @@ export const menuItemsData = [
         url: "/media/#video-gallery",
       },
       {
+        title: "News Section",
+        url: "/media/#news-section",
+      },
+      {
         title: "Events",
         url: "/events",
         submenu: [
