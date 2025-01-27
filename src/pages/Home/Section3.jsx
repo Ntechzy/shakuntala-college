@@ -4,6 +4,8 @@ import herbs from "/images/image1.avif";
 import lab from "/hero/lab.avif";
 import inner from "/hero/inner.avif";
 import body from "/hero/body.avif";
+import r1 from "/homeG/r1.jpeg";
+import r2 from "/homeG/r2.jpeg";
 
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 const hs3news = [
@@ -38,6 +40,22 @@ const hs3news = [
     title: "Ayurvedic Pharmacist",
     content:
       "Master the fusion of Ayurvedic wisdom and pharmaceutical science. Become an Ayurvedic Pharmacist adept at herbal formulations and holistic healthcare. Enroll today!",
+  },
+  {
+    id: 4,
+    date: "26/01/2025",
+    img: r1,
+    title: "Republic Day",
+    content:
+      "Republic Day is a national holiday in india commemorating the adoption of the constitution of the republic of india and the country's transition to a republic",
+  },
+  {
+    id: 4,
+    date: "26/01/2025",
+    img: r2,
+    title: "Republic Day",
+    content:
+      "Republic Day is a national holiday in india commemorating the adoption of the constitution of the republic of india and the country's transition to a republic",
   },
 ];
 

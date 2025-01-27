@@ -1,8 +1,8 @@
 import React from "react";
 import "./section2.css";
 import herbs from "/images/image1.avif";
-import herbal from "/assets/herbal.avif";
-import library from "/assets/library.avif";
+import herbal from "/images/image37.avif";
+import library from "/images/image60.avif";
 import lab from "/assets/lab.avif";
 import scholarship from "/assets/scholarship.avif";
 
