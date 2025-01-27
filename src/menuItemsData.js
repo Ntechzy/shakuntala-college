@@ -220,27 +220,31 @@ export const menuItemsData = [
     url: "/facilities",
     submenu: [
       {
-        title: "Hospital Facilities",
-        url: "/facilities/#hospital-facilities",
+        title: "Hospital Facilities & Infrastructure",
+        // url: "/facilities/#hospital-facilities",
+        url: "/hospital_infra.pdf",
+        target: "_blank",
       },
       {
-        title: "College & Other Facilities",
-        url: "/facilities/#college-facilities",
+        title: "College Facilities &  Infrastructure",
+        // url: "/facilities/#college-facilities",
+        url: "/college_infra.pdf",
+          target: "_blank",
       },
       {
         title: "Hostel",
         url: "/facilities/#hostel",
       },
-      {
-        title: "College Infrastructure",
-        url: "/college_infra.pdf",
-        target: "_blank",
-      },
-      {
-        title: "Hospital Infrastructure",
-        url: "/hospital_infra.pdf",
-        target: "_blank",
-      },
+      // {
+      //   title: "College Infrastructure",
+      //   url: "/college_infra.pdf",
+      //   target: "_blank",
+      // },
+      // {
+      //   title: "Hospital Infrastructure",
+      //   url: "/hospital_infra.pdf",
+      //   target: "_blank",
+      // },
     ],
   },
   {

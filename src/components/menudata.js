@@ -319,12 +319,12 @@ export const menuData = [
     url: "/facilities",
     submenu: [
       {
-        title: "Hospital Facilities",
+        title: "Hospital Facilities & Infrastructure",
         url: "hospital-facilities",
         content: HospitalFacilities,
       },
       {
-        title: "College & Other Facilities",
+        title: "College Facilities & Infrastructure",
         url: "college-facilities",
         content: CollegeFacilities,
       },
@@ -333,11 +333,11 @@ export const menuData = [
         url: "hostel",
         content: Hostel,
       },
-      {
-        title: "Gym",
-        url: "gym",
-        content: Gym,
-      },
+      // {
+      //   title: "Gym",
+      //   url: "gym",
+      //   content: Gym,
+      // },
     ],
   },
   {
