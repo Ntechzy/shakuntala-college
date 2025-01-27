@@ -60,6 +60,7 @@ import Lecturer from "./components/Lecturer";
 import Consultant from "./components/Consultant";
 import Superintendent from "./routes/Superitendent";
 import NewsSection from "./routes/NewsSection";
+import Carriculum from "./routes/Carriculum";
 
 const router = createBrowserRouter([
   {
@@ -208,6 +209,10 @@ const router = createBrowserRouter([
       {
         path: "news-section",
         element: <NewsSection />,   
+      },
+      {
+        path: "curriculum",
+        element: <Carriculum />,   
       },
       {
         path: "intake-capacity",

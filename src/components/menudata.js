@@ -7,6 +7,7 @@ import Awards from "../routes/Awards";
 import CoursesFees from "../routes/CoursesFees";
 import AdmissionInquiry from "../routes/AdmissionInquiry";
 import StudentList from "../routes/StudentList";
+import Carriculum from "../routes/Carriculum";
 import EBrochure from "../routes/EBrochure";
 import PrincipalMedicalSuperintendent from "../routes/PrincipalMedicalSuperintendent";
 import TeachingStaff from "../routes/TeachingStaff";
@@ -257,6 +258,7 @@ export const menuData = [
         url: "student-details",
         content: StudentDetails,
       },
+     
       {
         title: "Research Publications",
         url: "research-publications",
@@ -294,6 +296,11 @@ export const menuData = [
         title: "Affiliations",
         url: "affiliations",
         content: Affiliations,
+      },
+      {
+        title: "Curriculum",
+        url: "/ncism-mandate/#curriculum",
+        content: Carriculum,
       },
       {
         title: "Clinical Material in Hospital",
@@ -348,7 +355,7 @@ export const menuData = [
         content: VideoGallery,
       },
       {
-        title: "News Section",
+        title: "News ",
         url: "news-section",
         content: NewsSection,
       },

@@ -69,7 +69,7 @@ const Consultant   = () => {
         "D.O.B": 628732800000,
         "Nature of Appointment": "Regular",
         "Registration Board/Reg.No.": "AYPK00626",
-        "Experience": "Less than 2 year",
+        "Experience": "More than 6 years",
         "Date of Appointment": 1728518400000,
         "Contact No.": 9919801055,
         "Email ID": "dr.gaurishankar89@gmail.com",

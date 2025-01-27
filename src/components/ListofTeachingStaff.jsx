@@ -349,36 +349,36 @@ const ListofTeachingStaff = () => {
         "Email ID":"kiransandeepjnp@gmail.com",
         // "Image":null
     },
-    {
-      "Sr. No.": 11,
-      "Name": "Dr. GAURISHANKAR YADAV",
-      "Qualification": "BAMS, MD",
-      "Designation": "Assistant Professor / Consultant",
-      "Department": "Panchakarma",
-      "D.O.B": 628732800000,
-      "Nature of Appointment": "Regular",
-      "Registration Board/Reg.No.": "AYPK00626",
-      "Experience": "Less than 2 year",
-      "Date of Appointment": 1728518400000,
-      "Contact No.": 9919801055,
-      "Email ID": "dr.gaurishankar89@gmail.com",
-      "Image": null
-    },
-    {
-      "Sr. No.": 12,
-      "Name": "Dr. SHAILESHWARI YADAV",
-      "Qualification": "BAMS, MS",
-      "Designation": "Assistant Professor / Consultant",
-      "Department": "Prasooti Tantra evum Stri Rog",
-      "D.O.B": 728611200000,
-      "Nature of Appointment": "Regular",
-      "Registration Board/Reg.No.": "AYPS01544",
-      "Experience": "More than 2 years",
-      "Date of Appointment": 1651968000000,
-      "Contact No.": 9696366831,
-      "Email ID": "yshaileshwari@gmail.com",
-      "Image": null
-    },
+    // {
+    //   "Sr. No.": 11,
+    //   "Name": "Dr. GAURISHANKAR YADAV",
+    //   "Qualification": "BAMS, MD",
+    //   "Designation": "Assistant Professor / Consultant",
+    //   "Department": "Panchakarma",
+    //   "D.O.B": 628732800000,
+    //   "Nature of Appointment": "Regular",
+    //   "Registration Board/Reg.No.": "AYPK00626",
+    //   "Experience": "Less than 2 year",
+    //   "Date of Appointment": 1728518400000,
+    //   "Contact No.": 9919801055,
+    //   "Email ID": "dr.gaurishankar89@gmail.com",
+    //   "Image": null
+    // },
+    // {
+    //   "Sr. No.": 12,
+    //   "Name": "Dr. SHAILESHWARI YADAV",
+    //   "Qualification": "BAMS, MS",
+    //   "Designation": "Assistant Professor / Consultant",
+    //   "Department": "Prasooti Tantra evum Stri Rog",
+    //   "D.O.B": 728611200000,
+    //   "Nature of Appointment": "Regular",
+    //   "Registration Board/Reg.No.": "AYPS01544",
+    //   "Experience": "More than 2 years",
+    //   "Date of Appointment": 1651968000000,
+    //   "Contact No.": 9696366831,
+    //   "Email ID": "yshaileshwari@gmail.com",
+    //   "Image": null
+    // },
   ];
 
   const columns = [

@@ -161,6 +161,7 @@ export const menuItemsData = [
         title: "Student Details",
         url: "/ncism-mandate/#student-details",
       },
+     
       {
         title: "Research Publications",
         url: "/ncism-mandate/#research-publications",
@@ -175,7 +176,7 @@ export const menuItemsData = [
         submenu: [
           {
             title: "BAMS Students Attendance",
-            url: "/std_attendence.pdf",
+            url: "/assets/student-attendence.pdf",
             target: "_blank"
           },
           {
@@ -198,6 +199,11 @@ export const menuItemsData = [
       {
         title: "Affiliations",
         url: "/ncism-mandate/#affiliations",
+      },
+      {
+        title: "Curriculum",
+        url: "/ncism-mandate/#curriculum",
+       
       },
       {
         title: "Clinical Material in Hospital",
@@ -250,7 +256,7 @@ export const menuItemsData = [
         url: "/media/#video-gallery",
       },
       {
-        title: "News Section",
+        title: "News ",
         url: "/media/#news-section",
       },
       {
