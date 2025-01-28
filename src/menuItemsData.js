@@ -181,7 +181,7 @@ export const menuItemsData = [
           },
           {
             title: "Teaching Staff Attendance",
-            url: "/T_Attendance24.pdf",
+            url: "/assets/T_attendance.pdf",
             target: "_blank",
           },
           {
@@ -221,15 +221,15 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Hospital Facilities & Infrastructure",
-        // url: "/facilities/#hospital-facilities",
-        url: "/hospital_infra.pdf",
-        target: "_blank",
+        url: "/facilities/#hospital-facilities",
+        // url: "/hospital_infra.pdf",
+        // target: "_blank",
       },
       {
         title: "College Facilities &  Infrastructure",
-        // url: "/facilities/#college-facilities",
-        url: "/college_infra.pdf",
-          target: "_blank",
+        url: "/facilities/#college-facilities",
+        // url: "/college_infra.pdf",
+          // target: "_blank",
       },
       {
         title: "Hostel",
