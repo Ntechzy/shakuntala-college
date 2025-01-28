@@ -181,7 +181,7 @@ export const menuItemsData = [
           },
           {
             title: "Teaching Staff Attendance",
-            url: "/assets/T_attendance.pdf",
+            url: "teaching-staff-attendance",
             target: "_blank",
           },
           {
