@@ -209,7 +209,7 @@ const ListofTeachingStaff = () => {
         "Nature of Appointment":"Regular",
         "Registration Board\/Reg.No.":"AYDG01158",
         "Experience":"More than 15 year",
-        "Date of Appointment":"16\/10\/2024",
+        "Date of Appointment":1729064027000,
         "Contact No.":7007951650,
         "Email ID":"drbeenatripathi@gmail.com",
         // "Image":null
@@ -299,7 +299,7 @@ const ListofTeachingStaff = () => {
         "Nature of Appointment":"Regular",
         "Registration Board\/Reg.No.":"AYKS01125",
         "Experience":"more than 1 year",
-        "Date of Appointment":"17\/12\/2024",
+        "Date of Appointment":1734420827000,
         "Contact No.":8527265730,
         "Email ID":"jayjite1882@gmail.com",
         // "Image":null
@@ -441,15 +441,17 @@ const ListofTeachingStaff = () => {
   return (
     <div>
       <div className="sHeading">List of Lecturers</div>
+      <div style={{width:"90%", margin:"auto"}}>
       <DataTable
         columns={columns}
         data={data}
         pagination
         expandableRows
         expandableRowsComponent={ExpandedComponent}
-      
+    
     
       />
+      </div>
     </div>
   );
 };
