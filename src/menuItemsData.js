@@ -12,7 +12,7 @@ export const menuItemsData = [
     submenu: [
       {
         title: "College Council",
-        url: "/collegeCouncil.pdf",
+        url: "/pdf/councilcomittee.pdf",
         target: "_blank",
       },
       {
@@ -186,12 +186,12 @@ export const menuItemsData = [
           },
           {
             title: "College Non-Teaching Staff Attendance",
-            url: "/NT_Atten24.pdf",
+            url: "/college-non-teaching-staff-attendance",
             target: "_blank",
           },
           {
             title: "Hospital Non-Teaching Staff Attendance",
-            url: "/H_Atten24.pdf",
+            url: "hospital-non-teaching-staff-attendance",
             target: "_blank",
           },
         ],
@@ -291,27 +291,27 @@ export const menuItemsData = [
       },
       {
         title: "Panchakarma",
-        url: "/panchakarma24.pdf",
+        url: "/pdf/PANCHAKARMA.pdf",
         target: "_blank",
       },
       {
         title: "Ksharsutra",
-        url: "/ksharsutra24.pdf",
+        url: "/pdf/KSHARSUTRA.pdf",
         target: "_blank",
       },
       {
         title: "Operation Theatre",
-        url: "/OT2024.pdf",
+        url: "/pdf/OT.pdf",
         target: "_blank",
       },
       {
         title: "Pathology",
-        url: "/pathology24.pdf",
+        url: "/pdf/Patholy(1).pdf",
         target: "_blank",
       },
       {
         title: "X-Ray / ECG",
-        url: "/xrayusg.pdf",
+        url: "/pdf/XRAY.pdf",
         target: "_blank",
       },
     ],
