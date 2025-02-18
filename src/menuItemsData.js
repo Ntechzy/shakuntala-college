@@ -291,7 +291,7 @@ export const menuItemsData = [
       },
       {
         title: "Panchakarma",
-        url: "/pdf/PANCHAKARMA.pdf",
+        url: "/pdf/PANCHAKRMA.pdf",
         target: "_blank",
       },
       {
