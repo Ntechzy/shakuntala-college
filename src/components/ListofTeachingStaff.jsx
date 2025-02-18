@@ -334,21 +334,21 @@ const ListofTeachingStaff = () => {
         "Email ID":"dayashankar454647@gmail.com",
         // "Image":null
     },
-    {
-        "Sr. No.":10,
-        "Name":"Mrs.KIRAN SRIVASTAVA",
-        "Qualification":"MA Sanskrit",
-        "Designation":"Assistant Professor\/Lecturer",
-        "Department":"Ayurved Samhita & Siddhant",
-        "D.O.B":294883200000,
-        "Nature of Appointment":"Regular",
-        "Registration Board\/Reg.No.":"AYSN00731",
-        "Experience":"More than 1 year",
-        "Date of Appointment":1730592000000,
-        "Contact No.":9415587421,
-        "Email ID":"kiransandeepjnp@gmail.com",
-        // "Image":null
-    },
+    // {
+    //     "Sr. No.":10,
+    //     "Name":"Mrs.KIRAN SRIVASTAVA",
+    //     "Qualification":"MA Sanskrit",
+    //     "Designation":"Assistant Professor\/Lecturer",
+    //     "Department":"Ayurved Samhita & Siddhant",
+    //     "D.O.B":294883200000,
+    //     "Nature of Appointment":"Regular",
+    //     "Registration Board\/Reg.No.":"AYSN00731",
+    //     "Experience":"More than 1 year",
+    //     "Date of Appointment":1730592000000,
+    //     "Contact No.":9415587421,
+    //     "Email ID":"kiransandeepjnp@gmail.com",
+    //     // "Image":null
+    // },
     // {
     //   "Sr. No.": 11,
     //   "Name": "Dr. GAURISHANKAR YADAV",
