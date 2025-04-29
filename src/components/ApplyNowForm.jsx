@@ -8,6 +8,10 @@ import emailjs from "@emailjs/browser";
 
 const ApplyNowForm = () => {
 
+  const getAdmissionYear = () => {
+    const currentYear = new Date().getFullYear();
+    return `${currentYear}-${currentYear + 1}`;
+  };
 
   // const [messageSent, setMessageSent] = useState(false);
 
@@ -45,16 +49,16 @@ const ApplyNowForm = () => {
 
     <div className="apply-container">
       <div className="flex aic jcc fdc g10">
-        <div className="opennow">Admissions are now open for 2024-2025</div>
+        <div className="opennow">Admissions are now open for {getAdmissionYear()}</div>
         <div className="hs2-header-g">Apply Now</div>
         <div className="hs2-heading-a">Begin Your Journey</div>
       </div>
       <div className="apply-wrapper">
         <div>
           <img src="/books.jpg" alt="" />
-      <div id="formsID7375"></div>
+          <div id="formsID7375"></div>
         </div>
-        <div className="apply-form-div">
+        {/* <div className="apply-form-div"> */}
 
           {/* <form ref={form} onSubmit={sendEmail}>
             <input
@@ -89,7 +93,7 @@ const ApplyNowForm = () => {
             </button>
           </form> */}
 
-        </div>
+        {/* </div> */}
       </div>
       <Section2 />
       <HomeGallery />
