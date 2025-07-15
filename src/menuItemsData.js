@@ -39,27 +39,6 @@ export const menuItemsData = [
         title: "Awards & Achievements",
         url: "/about/#awards",
       },
-      {
-        title: "Permissions and Affiliations",
-        url: "",
-        submenu: [
-          {
-            title: "State NOC",
-            url: "/statenoc.jpg",
-            target: "_blank",
-          },
-          {
-            title: "University Affiliation",
-            url: "/Affiliation_Letter_2021.jpg",
-            target: "_blank",
-          },
-          {
-            title: "Permission Letter By The Government of India",
-            url: "/Permission2024.jpg",
-            target: "_blank",
-          },
-        ],
-      },
     ],
   },
   {
@@ -78,6 +57,10 @@ export const menuItemsData = [
       {
         title: "Student List",
         url: "/student/#student-list",
+      },
+      {
+        title: "Student Details",
+        url: "/ncism-mandate/#student-details",
       },
       {
         title: "E-Brochure",
@@ -157,10 +140,6 @@ export const menuItemsData = [
           },
         ],
       },
-      {
-        title: "Student Details",
-        url: "/ncism-mandate/#student-details",
-      },
      
       {
         title: "Research Publications",
@@ -169,32 +148,6 @@ export const menuItemsData = [
       {
         title: "Conferences and Academic Activities",
         url: "/ncism-mandate/#conference-activities",
-      },
-      {
-        title: "Attendance Report",
-        url: "attendance-report",
-        submenu: [
-          {
-            title: "BAMS Students Attendance",
-            url: "/assets/student-attendence.pdf",
-            target: "_blank"
-          },
-          {
-            title: "Teaching Staff Attendance",
-            url: "teaching-staff-attendance",
-            target: "_blank",
-          },
-          {
-            title: "College Non-Teaching Staff Attendance",
-            url: "/college-non-teaching-staff-attendance",
-            target: "_blank",
-          },
-          {
-            title: "Hospital Non-Teaching Staff Attendance",
-            url: "hospital-non-teaching-staff-attendance",
-            target: "_blank",
-          },
-        ],
       },
       {
         title: "Affiliations",
@@ -209,9 +162,61 @@ export const menuItemsData = [
         title: "Clinical Material in Hospital",
         url: "/ncism-mandate/#clinical-material-in-hospital",
       },
+      // {
+      //   title: "Hospital Month wise OP/IP Statistics",
+      //   url: "/ncism-mandate/#hospital-month-wise-opip-statistics",
+      // },
+    ],
+  },
+  
+  {
+    title: "Permissions and Affiliations",
+    url: "",
+    submenu: [
       {
-        title: "Hospital Month wise OP/IP Statistics",
-        url: "/ncism-mandate/#hospital-month-wise-opip-statistics",
+        title: "State NOC",
+        url: "/statenoc.jpg",
+        target: "_blank",
+      },
+      {
+        title: "University Affiliation",
+        url: "/Affiliation_Letter_2021.jpg",
+        target: "_blank",
+      },
+      {
+        title: "Permission Letter By The Government of India",
+        url: "/Permission2024.jpg",
+        target: "_blank",
+      },
+      {
+        title: "MGGAU Affiliation",
+        url: "/ncism-mandate/#affiliations"
+      }
+    ],
+  },
+  {
+    title: "Attendance Report",
+    url: "attendance-report",
+    submenu: [
+      {
+        title: "BAMS Students Attendance",
+        url: "/assets/student-attendence.pdf",
+        target: "_blank"
+      },
+      {
+        title: "Teaching Staff Attendance",
+        url: "teaching-staff-attendance",
+        target: "_blank",
+      },
+      {
+        title: "College Non-Teaching Staff Attendance",
+        url: "/college-non-teaching-staff-attendance",
+        target: "_blank",
+      },
+      {
+        title: "Hospital Non-Teaching Staff Attendance",
+        url: "hospital-non-teaching-staff-attendance",
+        target: "_blank",
       },
     ],
   },
