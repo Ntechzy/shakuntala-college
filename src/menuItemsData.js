@@ -185,7 +185,7 @@ export const menuItemsData = [
       },
       {
         title: "Permission Letter By The Government of India",
-        url: "/Permission2024.jpg",
+        url: "/pdf/1st Renewal of Permission - AYU0728.pdf",
         target: "_blank",
       },
       {
