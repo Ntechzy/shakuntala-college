@@ -110,37 +110,8 @@ export const menuItemsData = [
         title: "Intake Capacity",
         url: "/ncism-mandate/#intake-capacity",
       },
-      {
-        title: "Staff List",
-        url: "/ncism-mandate/#staff-list",
-        submenu: [
-          {
-            title: "Teaching Staff",
-            url: "teaching-staff",
-          },
-          {
-            title: "Non-Teaching Staff",
-            url: "non-teaching-staff",
-          },
-          {
-            title: "Clinical Staff",
-            url: "clinical-staff",
-          },
-          {
-            title: "Hospital Staff",
-            url: "hospital-staff",
-          },
-          // {
-          //   title: "Lecturer",
-          //   url: "lecturer",
-          // },
-          {
-            title: "Consultant",
-            url: "consultant",
-          },
-        ],
-      },
      
+
       {
         title: "Research Publications",
         url: "/ncism-mandate/#research-publications",
@@ -156,7 +127,7 @@ export const menuItemsData = [
       {
         title: "Curriculum",
         url: "/ncism-mandate/#curriculum",
-       
+
       },
       {
         title: "Clinical Material in Hospital",
@@ -168,7 +139,7 @@ export const menuItemsData = [
       // },
     ],
   },
-  
+
   {
     title: "Permissions and Affiliations",
     url: "",
@@ -220,107 +191,107 @@ export const menuItemsData = [
       },
     ],
   },
-  {
-    title: "Facilities",
-    url: "/facilities",
-    submenu: [
-      {
-        title: "Hospital Facilities & Infrastructure",
-        url: "/facilities/#hospital-facilities",
-        // url: "/hospital_infra.pdf",
-        // target: "_blank",
-      },
-      {
-        title: "College Facilities &  Infrastructure",
-        url: "/facilities/#college-facilities",
-        // url: "/college_infra.pdf",
-          // target: "_blank",
-      },
-      {
-        title: "Hostel",
-        url: "/facilities/#hostel",
-      },
-      // {
-      //   title: "College Infrastructure",
-      //   url: "/college_infra.pdf",
-      //   target: "_blank",
-      // },
-      // {
-      //   title: "Hospital Infrastructure",
-      //   url: "/hospital_infra.pdf",
-      //   target: "_blank",
-      // },
-    ],
-  },
-  {
-    title: "Media",
-    url: "/media",
-    submenu: [
-      {
-        title: "Image Gallery",
-        url: "/media/#image-gallery",
-      },
-      {
-        title: "Video Gallery",
-        url: "/media/#video-gallery",
-      },
-      {
-        title: "News ",
-        url: "/media/#news-section",
-      },
-      {
-        title: "Events",
-        url: "/events",
-        submenu: [
-          {
-            title: "Conference and Academic Activities",
-            url: "conference-activities",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Hospital Clinical Data",
-    url: "/hospital-clinical-data",
-    submenu: [
-      {
-        title: "Hospital OPD Data",
-        url: "https://softitlab.com/sakayu/home.php?year=2023",
-        target: "_blank",
-      },
-      {
-        title: "Hospital IPD Data",
-        url: "https://softitlab.com/sakayu/home.php?year=2023",
-        target: "_blank",
-      },
-      {
-        title: "Panchakarma",
-        url: "/pdf/PANCHAKRMA.pdf",
-        target: "_blank",
-      },
-      {
-        title: "Ksharsutra",
-        url: "/pdf/KSHARSUTRA.pdf",
-        target: "_blank",
-      },
-      {
-        title: "Operation Theatre",
-        url: "/pdf/OT.pdf",
-        target: "_blank",
-      },
-      {
-        title: "Pathology",
-        url: "/pdf/Patholy(1).pdf",
-        target: "_blank",
-      },
-      {
-        title: "X-Ray / ECG",
-        url: "/pdf/XRAY.pdf",
-        target: "_blank",
-      },
-    ],
-  },
+  // {
+  //   title: "Facilities",
+  //   url: "/facilities",
+  //   submenu: [
+  //     {
+  //       title: "Hospital Facilities & Infrastructure",
+  //       url: "/facilities/#hospital-facilities",
+  //       // url: "/hospital_infra.pdf",
+  //       // target: "_blank",
+  //     },
+  //     {
+  //       title: "College Facilities &  Infrastructure",
+  //       url: "/facilities/#college-facilities",
+  //       // url: "/college_infra.pdf",
+  //         // target: "_blank",
+  //     },
+  //     {
+  //       title: "Hostel",
+  //       url: "/facilities/#hostel",
+  //     },
+  //     // {
+  //     //   title: "College Infrastructure",
+  //     //   url: "/college_infra.pdf",
+  //     //   target: "_blank",
+  //     // },
+  //     // {
+  //     //   title: "Hospital Infrastructure",
+  //     //   url: "/hospital_infra.pdf",
+  //     //   target: "_blank",
+  //     // },
+  //   ],
+  // },
+  // {
+  //   title: "Media",
+  //   url: "/media",
+  //   submenu: [
+  //     {
+  //       title: "Image Gallery",
+  //       url: "/media/#image-gallery",
+  //     },
+  //     {
+  //       title: "Video Gallery",
+  //       url: "/media/#video-gallery",
+  //     },
+  //     {
+  //       title: "News ",
+  //       url: "/media/#news-section",
+  //     },
+  //     {
+  //       title: "Events",
+  //       url: "/events",
+  //       submenu: [
+  //         {
+  //           title: "Conference and Academic Activities",
+  //           url: "conference-activities",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Hospital Clinical Data",
+  //   url: "/hospital-clinical-data",
+  //   submenu: [
+  //     {
+  //       title: "Hospital OPD Data",
+  //       url: "https://softitlab.com/sakayu/home.php?year=2023",
+  //       target: "_blank",
+  //     },
+  //     {
+  //       title: "Hospital IPD Data",
+  //       url: "https://softitlab.com/sakayu/home.php?year=2023",
+  //       target: "_blank",
+  //     },
+  //     {
+  //       title: "Panchakarma",
+  //       url: "/pdf/PANCHAKRMA.pdf",
+  //       target: "_blank",
+  //     },
+  //     {
+  //       title: "Ksharsutra",
+  //       url: "/pdf/KSHARSUTRA.pdf",
+  //       target: "_blank",
+  //     },
+  //     {
+  //       title: "Operation Theatre",
+  //       url: "/pdf/OT.pdf",
+  //       target: "_blank",
+  //     },
+  //     {
+  //       title: "Pathology",
+  //       url: "/pdf/Patholy(1).pdf",
+  //       target: "_blank",
+  //     },
+  //     {
+  //       title: "X-Ray / ECG",
+  //       url: "/pdf/XRAY.pdf",
+  //       target: "_blank",
+  //     },
+  //   ],
+  // },
   {
     title: "Contact",
     url: "/contact",

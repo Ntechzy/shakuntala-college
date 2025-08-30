@@ -61,6 +61,7 @@ import Consultant from "./components/Consultant";
 import Superintendent from "./routes/Superitendent";
 import NewsSection from "./routes/NewsSection";
 import Carriculum from "./routes/Carriculum";
+import EmoRmo from "./components/EmoRmo";
 
 const router = createBrowserRouter([
   {
@@ -208,11 +209,11 @@ const router = createBrowserRouter([
       },
       {
         path: "news-section",
-        element: <NewsSection />,   
+        element: <NewsSection />,
       },
       {
         path: "curriculum",
-        element: <Carriculum />,   
+        element: <Carriculum />,
       },
       {
         path: "intake-capacity",
@@ -245,6 +246,10 @@ const router = createBrowserRouter([
       {
         path: "teaching-staff",
         element: <TeachingStaff />,
+      },
+      {
+        path: "emo-rmo",
+        element: <EmoRmo />,
       },
       {
         path: "non-teaching-staff",
@@ -292,7 +297,7 @@ const router = createBrowserRouter([
       },
       {
         path: "ncism-mandate/medical-superintendent",
-        element: <Superintendent/>,
+        element: <Superintendent />,
       },
       {
         path: "research-publications",

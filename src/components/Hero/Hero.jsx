@@ -34,7 +34,7 @@ const Hero = () => {
                   marginTop: "10px",
                 }}
               >
-                ADMISSIONS ARE NOW OPEN FOR 2024-2025
+                ADMISSIONS ARE NOW OPEN FOR 2025-2026
               </p>
             </div>
           </div>
