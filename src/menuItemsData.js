@@ -156,9 +156,21 @@ export const menuItemsData = [
       },
       {
         title: "Permission Letter By The Government of India",
-        url: "/pdf/1st Renewal of Permission - AYU0728.pdf",
-        target: "_blank",
+        url: "",
+        submenu: [
+          {
+            title: "2nd Renewal of Permission",
+            url: "/pdf/1st Renewal of Permission - AYU0728.pdf",
+            target: "_blank",
+          },
+          {
+            title: "1st Renewal of Permission",
+            url: "/Permission2024.jpg",
+            target: "_blank",
+          }
+        ],
       },
+      
       {
         title: "MGGAU Affiliation",
         url: "/ncism-mandate/#affiliations"
