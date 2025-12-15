@@ -21,16 +21,8 @@ export const latestNavbarData = [
         url: "/about/#mission-vision",
       },
       {
-        title: "Chairman's Message",
-        url: "/about/#chairman",
-      },
-      {
         title: "Director's Message",
         url: "/about/#director",
-      },
-      {
-        title: "Principal's Message",
-        url: "/about/#principal",
       },
       {
         title: "Awards & Achievements",
@@ -48,11 +40,11 @@ export const latestNavbarData = [
         submenu: [
           {
             title: "Principal Details / Message",
-            url: "/ncism-mandate/#principal-medical-superintendent",
+            url: "/principal",
           },
           {
             title: "Medical Superintendent Details / Message",
-            url: "/ncism-mandate/#medical-superintendent",
+            url: "ncism-mandate/medical-superintendent",
           },
           {
             title: "Vice Chancellor Message",
@@ -64,7 +56,7 @@ export const latestNavbarData = [
           },
           {
             title: "Chairman Details / Message",
-            url: "/ncism-mandate/#chairman-message",
+            url: "/ncism-mandate/#chairman",
           },
         ],
       },
