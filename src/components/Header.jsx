@@ -4,6 +4,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import logo from "/image99.png";
 import HamburgerDropdown from "./HamburgerDropdown";
+import LatestNavbar from "./LatestNavbar";
 
 const Header = () => {
 
@@ -21,7 +22,8 @@ const Header = () => {
         </Link>
 
         {/* for large screens */}
-        <Navbar />
+        {/* <Navbar /> */}
+        <LatestNavbar />
 
         {/* for small screens */}
         <MobileNav />

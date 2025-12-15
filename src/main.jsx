@@ -62,6 +62,7 @@ import Superintendent from "./routes/Superitendent";
 import NewsSection from "./routes/NewsSection";
 import Carriculum from "./routes/Carriculum";
 import EmoRmo from "./components/EmoRmo";
+import NCISMHome from "./pages/ncism/NCISMHome";
 
 const router = createBrowserRouter([
   {
@@ -327,6 +328,10 @@ const router = createBrowserRouter([
       {
         path: "hospital-opd-ipd-data",
         element: <HospitalOpdIpdData />,
+      },
+      {
+        path: "/ncism-mandate/home-ncism",
+        element: <NCISMHome />,
       },
     ],
   },
