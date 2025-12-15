@@ -1,5 +1,3 @@
-
-
 export const latestNavbarData = [
   {
     title: "Home",
@@ -49,42 +47,298 @@ export const latestNavbarData = [
         url: "/ncism-mandate/home-ncism",
         submenu: [
           {
-            title: "Principal",
+            title: "Principal Details / Message",
             url: "/ncism-mandate/#principal-medical-superintendent",
           },
           {
-            title: "Medical Superintendent",
+            title: "Medical Superintendent Details / Message",
             url: "/ncism-mandate/#medical-superintendent",
           },
           {
             title: "Vice Chancellor Message",
             url: "/ncism-mandate/#vice-chancellor-message",
           },
+          {
+            title: "Registrar Details / Message",
+            url: "/ncism-mandate/#registrar-message",
+          },
+          {
+            title: "Chairman Details / Message",
+            url: "/ncism-mandate/#chairman-message",
+          },
         ],
       },
       {
-        title: "Intake Capacity",
-        url: "/ncism-mandate/#intake-capacity",
+        title: "Links",
+        url: "/ncism-mandate/#links",
+        submenu: [
+          {
+            title: "AYUSH",
+            url: "/ncism-mandate/#ayush-link",
+          },
+          {
+            title: "NCISM",
+            url: "/ncism-mandate/#ncism-link",
+          },
+          {
+            title: "University (Maha Yogi Guru Gorakhnath University)",
+            url: "/ncism-mandate/#university-link",
+          },
+          {
+            title: "Scholarship (U.P.)",
+            url: "/ncism-mandate/#scholarship-link",
+          },
+          {
+            title: "Elective Subject",
+            url: "/ncism-mandate/#elective-subject-link",
+          },
+          {
+            title: "AYUSH Ministry U.P. / Directorate",
+            url: "/ncism-mandate/#ayush-ministry-link",
+          },
+        ],
       },
       {
-        title: "Research Publications",
-        url: "/ncism-mandate/#research-publications",
+        title: "Infrastructure & Facilities",
+        url: "/ncism-mandate/#facilities",
+        submenu: [
+          {
+            title: "College",
+            url: "/ncism-mandate/#college",
+            submenu: [
+              {
+                title: "Infrastructure",
+                url: "/ncism-mandate/#college-infrastructure",
+              },
+              {
+                title: "List of Facilities / Instruments",
+                url: "/ncism-mandate/#college-facilities",
+              },
+            ],
+          },
+          {
+            title: "Hospital",
+            url: "/ncism-mandate/#hospital",
+            submenu: [
+              {
+                title: "Infrastructure",
+                url: "/ncism-mandate/#hospital-infrastructure",
+              },
+              {
+                title: "List of Facilities / Instruments",
+                url: "/ncism-mandate/#hospital-facilities",
+              },
+            ],
+          },
+          {
+            title: "Hostel",
+            url: "/ncism-mandate/#hostel",
+            submenu: [
+              {
+                title: "Infrastructure",
+                url: "/ncism-mandate/#hostel-infrastructure",
+              },
+            ],
+          },
+        ],
       },
       {
-        title: "Conferences and Academic Activities",
-        url: "/ncism-mandate/#conference-activities",
+        title: "Staff Details",
+        url: "/ncism-mandate/#staff-details",
+        submenu: [
+          {
+            title: "Teaching",
+            url: "/ncism-mandate/#teaching",
+            submenu: [
+              {
+                title: "Attendance",
+                url: "/ncism-mandate/#teaching-attendance",
+              },
+              {
+                title: "List",
+                url: "/ncism-mandate/#teaching-staff",
+              },
+            ],
+          },
+          {
+            title: "Non-Teaching",
+            url: "/ncism-mandate/#non-teaching",
+            submenu: [
+              {
+                title: "Attendance",
+                url: "/ncism-mandate/#non-teaching-attendance",
+              },
+              {
+                title: "List",
+                url: "/ncism-mandate/#non-teaching-staff",
+              },
+            ],
+          },
+          {
+            title: "Consultant / RMO / EMO",
+            url: "/ncism-mandate/#consultant-rmo-emo",
+            submenu: [
+              {
+                title: "Attendance",
+                url: "/ncism-mandate/#consultant-rmo-emo-attendance",
+              },
+              {
+                title: "List",
+                url: "/ncism-mandate/#consultant-rmo-emo-list",
+              },
+            ],
+          },
+          {
+            title: "Hospital / Other Staff",
+            url: "/ncism-mandate/#hospital-other-staff",
+            submenu: [
+              {
+                title: "Attendance",
+                url: "/ncism-mandate/#hospital-other-staff-attendance",
+              },
+              {
+                title: "List",
+                url: "/ncism-mandate/#hospital-other-staff-list",
+              },
+            ],
+          },
+        ],
       },
       {
-        title: "Affiliations",
-        url: "/ncism-mandate/#affiliations",
+        title: "Students",
+        url: "/ncism-mandate/#students",
+        submenu: [
+          {
+            title: "Admission Batch 2024-25",
+            url: "/ncism-mandate/#admission-2024-25",
+            submenu: [
+              {
+                title: "Student List",
+                url: "/ncism-mandate/#admission-2024-25-student-list",
+              },
+              {
+                title: "Attendance",
+                url: "/ncism-mandate/#admission-2024-25-attendance",
+              },
+              {
+                title: "Result",
+                url: "/ncism-mandate/#admission-2024-25-result",
+              },
+            ],
+          },
+          {
+            title: "Admission Batch 2025-26",
+            url: "/ncism-mandate/#admission-2025-26",
+            submenu: [
+              {
+                title: "Student List",
+                url: "/ncism-mandate/#admission-2025-26-student-list",
+              },
+              {
+                title: "Attendance",
+                url: "/ncism-mandate/#admission-2025-26-attendance",
+              },
+              {
+                title: "Result",
+                url: "/ncism-mandate/#admission-2025-26-result",
+              },
+            ],
+          },
+          {
+            title: "Study Material",
+            url: "/ncism-mandate/#study-material",
+            submenu: [
+              {
+                title: "A",
+                url: "/ncism-mandate/#study-material-a",
+              },
+              {
+                title: "B",
+                url: "/ncism-mandate/#study-material-b",
+              },
+              {
+                title: "C",
+                url: "/ncism-mandate/#study-material-c",
+              },
+              {
+                title: "D",
+                url: "/ncism-mandate/#study-material-d",
+              },
+            ],
+          },
+          {
+            title: "Question Link",
+            url: "/ncism-mandate/#question-link",
+          },
+        ],
       },
       {
-        title: "Curriculum",
-        url: "/ncism-mandate/#curriculum",
+        title: "Committees",
+        url: "/ncism-mandate/#committees",
+        submenu: [
+          {
+            title: "College Committee",
+            url: "/ncism-mandate/#college-committee",
+          },
+          {
+            title: "Research Publication Committee",
+            url: "/ncism-mandate/#research-publication-committee",
+          },
+          {
+            title: "Academic Committee",
+            url: "/ncism-mandate/#academic-committee",
+          },
+          {
+            title: "Anti-Ragging Committee",
+            url: "/ncism-mandate/#anti-ragging-committee",
+          },
+          {
+            title: "Sexual Harassment Committee",
+            url: "/ncism-mandate/#sexual-harassment-committee",
+          },
+          {
+            title: "Internal Quality Assurance Committee",
+            url: "/ncism-mandate/#iqac-committee",
+          },
+          {
+            title: "Human Resource Committee",
+            url: "/ncism-mandate/#hr-committee",
+          },
+          {
+            title: "Co-curricular Committee",
+            url: "/ncism-mandate/#co-curricular-committee",
+          },
+          {
+            title: "Grievance Committee",
+            url: "/ncism-mandate/#grievance-committee",
+          },
+        ],
       },
       {
-        title: "Clinical Material in Hospital",
-        url: "/ncism-mandate/#clinical-material-in-hospital",
+        title: "Other Details",
+        url: "/ncism-mandate/#other-details",
+        submenu: [
+          {
+            title: "Research Publication",
+            url: "/ncism-mandate/#research-publications",
+          },
+          {
+            title: "Seminar / Workshop",
+            url: "/ncism-mandate/#seminar-workshop",
+          },
+          {
+            title: "Sports",
+            url: "/ncism-mandate/#sports",
+          },
+          {
+            title: "Camp",
+            url: "/ncism-mandate/#camp",
+          },
+          {
+            title: "Awards / Achievements",
+            url: "/ncism-mandate/#awards-achievements",
+          },
+        ],
       },
     ],
   },
