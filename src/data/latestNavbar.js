@@ -176,7 +176,7 @@ export const latestNavbarData = [
               },
               {
                 title: "List",
-                url: "/ncism-mandate/#consultant-rmo-emo-list",
+                url: "/ncism-mandate/staff-details/consultant-rmo-emo",
               },
             ],
           },
@@ -190,7 +190,7 @@ export const latestNavbarData = [
               },
               {
                 title: "List",
-                url: "/ncism-mandate/#hospital-other-staff-list",
+                url: "/ncism-mandate/staff-details/hospital-other-staff",
               },
             ],
           },

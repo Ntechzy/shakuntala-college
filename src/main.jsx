@@ -68,6 +68,8 @@ import NCISMStudentList2526 from "./pages/ncism/student/2025-2026/NCISMStudentLi
 import NCISMAttendance2425 from "./pages/ncism/student/2024-2025/NCISMAttendance2425";
 import SeminarWorkshop from "./pages/ncism/other-details/SeminarWorkshop";
 import Camp from "./pages/ncism/other-details/Camp";
+import NCISMHospitalAndOtherStaffList from "./pages/ncism/staff-details/hospita-other-staff/NCISMHospitalAndOtherStaffList";
+import NCISMConsultantRMOEMOList from "./pages/ncism/staff-details/consultant-rmo-emo/NCISMConsultantRMOEMOList";
 
 const router = createBrowserRouter([
   {
@@ -357,6 +359,14 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/other-details/camp",
         element: <Camp />,
+      },
+      {
+        path: "/ncism-mandate/staff-details/hospital-other-staff",
+        element: <NCISMHospitalAndOtherStaffList />,
+      },
+      {
+        path: "/ncism-mandate/staff-details/consultant-rmo-emo",
+        element: <NCISMConsultantRMOEMOList />,
       },
     ],
   },
