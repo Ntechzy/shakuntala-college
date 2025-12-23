@@ -63,6 +63,11 @@ import NewsSection from "./routes/NewsSection";
 import Carriculum from "./routes/Carriculum";
 import EmoRmo from "./components/EmoRmo";
 import NCISMHome from "./pages/ncism/NCISMHome";
+import NCISMStudentList from "./pages/ncism/student/2024-2025/NCISMStudentList";
+import NCISMStudentList2526 from "./pages/ncism/student/2025-2026/NCISMStudentList2526";
+import NCISMAttendance2425 from "./pages/ncism/student/2024-2025/NCISMAttendance2425";
+import SeminarWorkshop from "./pages/ncism/other-details/SeminarWorkshop";
+import Camp from "./pages/ncism/other-details/Camp";
 
 const router = createBrowserRouter([
   {
@@ -230,7 +235,7 @@ const router = createBrowserRouter([
       //       },
       {
         path: "consultant",
-        element: <Consultant />
+        element: <Consultant />,
       },
       {
         path: "md-first-year",
@@ -330,22 +335,40 @@ const router = createBrowserRouter([
         element: <HospitalOpdIpdData />,
       },
       {
-        path: "/ncism-mandate/home-ncism",
+        path: "ncism-mandate/home-ncism",
         element: <NCISMHome />,
+      },
+      {
+        path: "/ncism-mandate/students/2024-2025/student-list",
+        element: <NCISMStudentList />,
+      },
+      {
+        path: "/ncism-mandate/students/2025-2026/student-list",
+        element: <NCISMStudentList2526 />,
+      },
+      {
+        path: "/ncism-mandate/students/2024-2025/attendance",
+        element: <NCISMAttendance2425 />,
+      },
+      {
+        path: "/ncism-mandate/other-details/seminar-workshop",
+        element: <SeminarWorkshop />,
+      },
+      {
+        path: "/ncism-mandate/other-details/camp",
+        element: <Camp />,
       },
     ],
   },
   {
     path: "*",
     element: <ErrorPage />,
-  }
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-
     <RouterProvider router={router} />
-
   </React.StrictMode>
 );

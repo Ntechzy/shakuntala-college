@@ -206,11 +206,11 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Student List",
-                url: "/ncism-mandate/#admission-2024-25-student-list",
+                url: "/ncism-mandate/students/2024-2025/student-list",
               },
               {
                 title: "Attendance",
-                url: "/ncism-mandate/#admission-2024-25-attendance",
+                url: "/ncism-mandate/students/2024-2025/attendance",
               },
               {
                 title: "Result",
@@ -224,7 +224,7 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Student List",
-                url: "/ncism-mandate/#admission-2025-26-student-list",
+                url: "/ncism-mandate/students/2025-2026/student-list",
               },
               {
                 title: "Attendance",
@@ -316,7 +316,7 @@ export const latestNavbarData = [
           },
           {
             title: "Seminar / Workshop",
-            url: "/ncism-mandate/#seminar-workshop",
+            url: "/ncism-mandate/other-details/seminar-workshop",
           },
           {
             title: "Sports",
@@ -324,7 +324,7 @@ export const latestNavbarData = [
           },
           {
             title: "Camp",
-            url: "/ncism-mandate/#camp",
+            url: "/ncism-mandate/other-details/camp",
           },
           {
             title: "Awards / Achievements",
