@@ -7,8 +7,13 @@
   font-family: "Inter", sans-serif;
 }
 
+html,
 body {
+  max-width: 100%;
   overflow-x: hidden;
+}
+
+body {
   background-color: #eef0f2;
   color: #000;
 }
@@ -54,7 +59,9 @@ body {
 }
 
 .content {
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   padding: 0;
 }
 
