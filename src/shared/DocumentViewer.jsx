@@ -15,9 +15,8 @@ const DocumentViewer = ({ fileUrl, title = "Document Viewer" }) => {
     fileUrl.includes("localhost") ||
     fileUrl.includes("127.0.0.1");
 
-  const googleViewerUrl = `https://docs.google.com/gview?url=${encodeURIComponent(
-    fileUrl
-  )}&embedded=true`;
+  const officeViewerUrl = `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(fileUrl)}`;
+
 
   return (
     <section className="doc-viewer">
@@ -124,8 +123,8 @@ const DocumentViewer = ({ fileUrl, title = "Document Viewer" }) => {
           {isOfficeDoc && !isLocalhost && (
             <iframe
               className="doc-frame"
-              src={googleViewerUrl}
-              title="Document Viewer"
+              src={officeViewerUrl}
+              title="Excel Viewer"
             />
           )}
 
@@ -151,7 +150,7 @@ const DocumentViewer = ({ fileUrl, title = "Document Viewer" }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download Document
+                View Document
               </a>
             </div>
           )}
