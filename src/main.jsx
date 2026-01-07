@@ -70,6 +70,13 @@ import SeminarWorkshop from "./pages/ncism/other-details/SeminarWorkshop";
 import Camp from "./pages/ncism/other-details/Camp";
 import NCISMHospitalAndOtherStaffList from "./pages/ncism/staff-details/hospita-other-staff/NCISMHospitalAndOtherStaffList";
 import NCISMConsultantRMOEMOList from "./pages/ncism/staff-details/consultant-rmo-emo/NCISMConsultantRMOEMOList";
+import NCISMChairman from "./pages/ncism/ncism-home/NCISMChairman";
+import NCISMPrincipal from "./pages/ncism/ncism-home/NCISMPrincipal";
+import NCISMCollegeInfra from "./pages/ncism/infrastructre-facilities/college/NCISMCollegeInfra";
+import NCISMHospitalInfra from "./pages/ncism/infrastructre-facilities/hospital/NCISMHospitalInfra";
+import NCISMHostelInfra from "./pages/ncism/infrastructre-facilities/hostel/NCISMHostelInfra";
+import NCISMAwards from "./pages/ncism/other-details/NCISMAwards";
+import NCISMEvents from "./pages/ncism/other-details/NCISMEvents";
 
 const router = createBrowserRouter([
   {
@@ -367,6 +374,38 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/staff-details/consultant-rmo-emo",
         element: <NCISMConsultantRMOEMOList />,
+      },
+      {
+        path: "/ncism-mandate/home/chairman-details",
+        element: <NCISMChairman />,
+      },
+      {
+        path: "/ncism-mandate/home/principal-details",
+        element: <NCISMPrincipal />,
+      },
+      {
+        path: "/ncism-mandate/college-infrastructure",
+        element: <NCISMCollegeInfra />,
+      },
+      {
+        path: "/ncism-mandate/hospital-infrastructure",
+        element: <NCISMHospitalInfra />,
+      },
+      {
+        path: "/ncism-mandate/hostel-infrastructure",
+        element: <NCISMHostelInfra />,
+      },
+      {
+        path: "/ncism-mandate/other-details/seminar-workshop",
+        element: <NCISMHostelInfra />,
+      },
+      {
+        path: "/ncism-mandate/other-details/awards",
+        element: <NCISMAwards />,
+      },
+      {
+        path: "/ncism-mandate/other-details/events",
+        element: <NCISMEvents />,
       },
     ],
   },

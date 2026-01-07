@@ -40,7 +40,7 @@ export const latestNavbarData = [
         submenu: [
           {
             title: "Principal Details / Message",
-            url: "/principal",
+            url: "/ncism-mandate/home/principal-details",
           },
           {
             title: "Medical Superintendent Details / Message",
@@ -56,7 +56,7 @@ export const latestNavbarData = [
           },
           {
             title: "Chairman Details / Message",
-            url: "/ncism-mandate/#chairman",
+            url: "/ncism-mandate/home/chairman-details",
           },
         ],
       },
@@ -66,27 +66,27 @@ export const latestNavbarData = [
         submenu: [
           {
             title: "AYUSH",
-            url: "/ncism-mandate/#ayush-link",
+            url: "https://upayushcounseling.upsdc.gov.in/",
           },
           {
             title: "NCISM",
-            url: "/ncism-mandate/#ncism-link",
+            url: "https://ncismindia.org/",
           },
           {
             title: "University (Maha Yogi Guru Gorakhnath University)",
-            url: "/ncism-mandate/#university-link",
+            url: "https://mggaugkp.ac.in/",
           },
           {
             title: "Scholarship (U.P.)",
-            url: "/ncism-mandate/#scholarship-link",
+            url: "https://scholarship.up.gov.in/index.aspx",
           },
           {
             title: "Elective Subject",
-            url: "/ncism-mandate/#elective-subject-link",
+            url: "https://ayushedu.bisag-n.gov.in/AYUSH_EDU/portalsignin",
           },
           {
             title: "AYUSH Ministry U.P. / Directorate",
-            url: "/ncism-mandate/#ayush-ministry-link",
+            url: "https://ayush.gov.in/",
           },
         ],
       },
@@ -100,7 +100,7 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Infrastructure",
-                url: "/ncism-mandate/#college-infrastructure",
+                url: "/ncism-mandate/college-infrastructure",
               },
               {
                 title: "List of Facilities / Instruments",
@@ -114,7 +114,7 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Infrastructure",
-                url: "/ncism-mandate/#hospital-infrastructure",
+                url: "/ncism-mandate/hospital-infrastructure",
               },
               {
                 title: "List of Facilities / Instruments",
@@ -128,7 +128,7 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Infrastructure",
-                url: "/ncism-mandate/#hostel-infrastructure",
+                url: "/ncism-mandate/hostel-infrastructure",
               },
             ],
           },
@@ -328,7 +328,11 @@ export const latestNavbarData = [
           },
           {
             title: "Awards / Achievements",
-            url: "/ncism-mandate/#awards-achievements",
+            url: "/ncism-mandate/other-details/awards",
+          },
+          {
+            title: "Events",
+            url: "/ncism-mandate/other-details/events",
           },
         ],
       },

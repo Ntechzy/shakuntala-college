@@ -95,7 +95,7 @@ const Camp = () => {
         {/* Document */}
         <DocumentViewer
           title="Camp"
-          fileUrl="/ncism-other-details/seminar-and-workshop/camp.pdf"
+          fileUrl="/ncism-other-details/camp/camp.pdf"
         />
         {/* ---------- GALLERY HEADING ---------- */}
         <div className="section-heading">
