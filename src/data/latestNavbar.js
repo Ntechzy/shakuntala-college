@@ -20,10 +20,10 @@ export const latestNavbarData = [
         title: "Mission & Vision",
         url: "/about/#mission-vision",
       },
-      {
-        title: "Director's Message",
-        url: "/about/#director",
-      },
+      // {
+      //   title: "Director's Message",
+      //   url: "/about/#director",
+      // },
       {
         title: "Awards & Achievements",
         url: "/about/#awards",
@@ -59,6 +59,14 @@ export const latestNavbarData = [
             url: "/ncism-mandate/home/chairman-details",
           },
         ],
+      },
+      {
+        title: "Affiliations",
+        url: "/ncism-mandate/affiliations"
+      },
+      {
+        title: "Approvals",
+        url: "/ncism-mandate/approvals"
       },
       {
         title: "Links",
@@ -320,7 +328,7 @@ export const latestNavbarData = [
           },
           {
             title: "Sports",
-            url: "/ncism-mandate/#sports",
+            url: "/ncism-mandate/other-details/sports",
           },
           {
             title: "Camp",

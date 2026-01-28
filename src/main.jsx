@@ -77,6 +77,9 @@ import NCISMHospitalInfra from "./pages/ncism/infrastructre-facilities/hospital/
 import NCISMHostelInfra from "./pages/ncism/infrastructre-facilities/hostel/NCISMHostelInfra";
 import NCISMAwards from "./pages/ncism/other-details/NCISMAwards";
 import NCISMEvents from "./pages/ncism/other-details/NCISMEvents";
+import Sports from "./pages/ncism/other-details/Sports";
+import NCISMAffiliations from "./pages/ncism/NCISMAffiliations";
+import NCISMApprovals from "./pages/ncism/NCISMApprovals";
 
 const router = createBrowserRouter([
   {
@@ -406,6 +409,18 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/other-details/events",
         element: <NCISMEvents />,
+      },
+      {
+        path: "/ncism-mandate/other-details/sports",
+        element: <Sports />,
+      },
+      {
+        path: "/ncism-mandate/affiliations",
+        element: <NCISMAffiliations />,
+      },
+      {
+        path: "/ncism-mandate/approvals",
+        element: <NCISMApprovals />,
       },
     ],
   },

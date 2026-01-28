@@ -1,11 +1,11 @@
 import React from "react";
-import DocumentViewer from "../../../../shared/DocumentViewer";
+import ExcelViewer from "../../../../shared/ExcelViewer";
 
 const NCISMStudentList = () => {
   return (
-    <DocumentViewer
+    <ExcelViewer
       title="Student List (Academic Year 2024–2025)"
-      fileUrl="/ncism-students/2024-2025/studentList24-25.xlsx"
+      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1768024309/studentList24-25_zfkon8.xlsx"
     />
   );
 };

@@ -3,6 +3,12 @@ import DocumentViewer from "../../../shared/DocumentViewer";
 
 const Camp = () => {
   const images = [
+    "/ncism-other-details/camp/camp1.webp",
+    "/ncism-other-details/camp/camp2.webp",
+    "/ncism-other-details/camp/camp3.webp",
+    "/ncism-other-details/camp/camp4.webp",
+    "/ncism-other-details/camp/camp5.webp",
+    "/ncism-other-details/camp/camp6.webp",
   ];
   return (
     <section className="seminar-section">
