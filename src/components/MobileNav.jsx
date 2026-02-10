@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import { menuItemsData } from "../menuItemsData";
 import MobileMenuItems from "./MobileMenuItems";
 import { RiMenu3Line } from "react-icons/ri";
+import { latestNavbarData } from "../data/latestNavbar";
 
 const MobileNav = () => {
   const depthLevel = 0;
@@ -35,7 +35,7 @@ const MobileNav = () => {
 
       {showMenu && (
         <ul className="menus" ref={ref}>
-          {menuItemsData.map((menu, index) => {
+          {latestNavbarData.map((menu, index) => {
             return (
               <MobileMenuItems
                 items={menu}

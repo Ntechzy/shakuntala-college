@@ -62,6 +62,24 @@ import Superintendent from "./routes/Superitendent";
 import NewsSection from "./routes/NewsSection";
 import Carriculum from "./routes/Carriculum";
 import EmoRmo from "./components/EmoRmo";
+import NCISMHome from "./pages/ncism/NCISMHome";
+import NCISMStudentList from "./pages/ncism/student/2024-2025/NCISMStudentList";
+import NCISMStudentList2526 from "./pages/ncism/student/2025-2026/NCISMStudentList2526";
+import NCISMAttendance2425 from "./pages/ncism/student/2024-2025/NCISMAttendance2425";
+import SeminarWorkshop from "./pages/ncism/other-details/SeminarWorkshop";
+import Camp from "./pages/ncism/other-details/Camp";
+import NCISMHospitalAndOtherStaffList from "./pages/ncism/staff-details/hospita-other-staff/NCISMHospitalAndOtherStaffList";
+import NCISMConsultantRMOEMOList from "./pages/ncism/staff-details/consultant-rmo-emo/NCISMConsultantRMOEMOList";
+import NCISMChairman from "./pages/ncism/ncism-home/NCISMChairman";
+import NCISMPrincipal from "./pages/ncism/ncism-home/NCISMPrincipal";
+import NCISMCollegeInfra from "./pages/ncism/infrastructre-facilities/college/NCISMCollegeInfra";
+import NCISMHospitalInfra from "./pages/ncism/infrastructre-facilities/hospital/NCISMHospitalInfra";
+import NCISMHostelInfra from "./pages/ncism/infrastructre-facilities/hostel/NCISMHostelInfra";
+import NCISMAwards from "./pages/ncism/other-details/NCISMAwards";
+import NCISMEvents from "./pages/ncism/other-details/NCISMEvents";
+import Sports from "./pages/ncism/other-details/Sports";
+import NCISMAffiliations from "./pages/ncism/NCISMAffiliations";
+import NCISMApprovals from "./pages/ncism/NCISMApprovals";
 
 const router = createBrowserRouter([
   {
@@ -229,7 +247,7 @@ const router = createBrowserRouter([
       //       },
       {
         path: "consultant",
-        element: <Consultant />
+        element: <Consultant />,
       },
       {
         path: "md-first-year",
@@ -328,19 +346,93 @@ const router = createBrowserRouter([
         path: "hospital-opd-ipd-data",
         element: <HospitalOpdIpdData />,
       },
+      {
+        path: "ncism-mandate/home-ncism",
+        element: <NCISMHome />,
+      },
+      {
+        path: "/ncism-mandate/students/2024-2025/student-list",
+        element: <NCISMStudentList />,
+      },
+      {
+        path: "/ncism-mandate/students/2025-2026/student-list",
+        element: <NCISMStudentList2526 />,
+      },
+      {
+        path: "/ncism-mandate/students/2024-2025/attendance",
+        element: <NCISMAttendance2425 />,
+      },
+      {
+        path: "/ncism-mandate/other-details/seminar-workshop",
+        element: <SeminarWorkshop />,
+      },
+      {
+        path: "/ncism-mandate/other-details/camp",
+        element: <Camp />,
+      },
+      {
+        path: "/ncism-mandate/staff-details/hospital-other-staff",
+        element: <NCISMHospitalAndOtherStaffList />,
+      },
+      {
+        path: "/ncism-mandate/staff-details/consultant-rmo-emo",
+        element: <NCISMConsultantRMOEMOList />,
+      },
+      {
+        path: "/ncism-mandate/home/chairman-details",
+        element: <NCISMChairman />,
+      },
+      {
+        path: "/ncism-mandate/home/principal-details",
+        element: <NCISMPrincipal />,
+      },
+      {
+        path: "/ncism-mandate/college-infrastructure",
+        element: <NCISMCollegeInfra />,
+      },
+      {
+        path: "/ncism-mandate/hospital-infrastructure",
+        element: <NCISMHospitalInfra />,
+      },
+      {
+        path: "/ncism-mandate/hostel-infrastructure",
+        element: <NCISMHostelInfra />,
+      },
+      {
+        path: "/ncism-mandate/other-details/seminar-workshop",
+        element: <NCISMHostelInfra />,
+      },
+      {
+        path: "/ncism-mandate/other-details/awards",
+        element: <NCISMAwards />,
+      },
+      {
+        path: "/ncism-mandate/other-details/events",
+        element: <NCISMEvents />,
+      },
+      {
+        path: "/ncism-mandate/other-details/sports",
+        element: <Sports />,
+      },
+      {
+        path: "/ncism-mandate/affiliations",
+        element: <NCISMAffiliations />,
+      },
+      {
+        path: "/ncism-mandate/approvals",
+        element: <NCISMApprovals />,
+      },
     ],
   },
   {
     path: "*",
     element: <ErrorPage />,
-  }
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-
     <RouterProvider router={router} />
-
-  </React.StrictMode>
+  </React.StrictMode>,
 );

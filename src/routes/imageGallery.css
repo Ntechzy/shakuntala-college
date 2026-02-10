@@ -112,3 +112,71 @@
 .gallery-images-avif {
   width: 300px;
 }
+
+/* Lightbox Overlay */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Image */
+.lightbox-img {
+  max-width: 90%;
+  max-height: 85vh;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Navigation Buttons */
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.nav-btn.left {
+  left: 20px;
+}
+
+.nav-btn.right {
+  right: 20px;
+}
+
+/* Mobile Optimisation */
+@media (max-width: 768px) {
+  .nav-btn {
+    font-size: 2rem;
+    padding: 8px 12px;
+  }
+
+  .close-btn {
+    font-size: 1.8rem;
+  }
+
+  .gallery-imgs {
+    width: 100%;
+    max-width: 280px;
+  }
+}
