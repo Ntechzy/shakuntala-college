@@ -24,10 +24,10 @@ export const latestNavbarData = [
       //   title: "Director's Message",
       //   url: "/about/#director",
       // },
-      {
-        title: "Awards & Achievements",
-        url: "/about/#awards",
-      },
+      // {
+      //   title: "Awards & Achievements",
+      //   url: "/about/#awards",
+      // },
     ],
   },
   {
