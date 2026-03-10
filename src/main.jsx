@@ -68,7 +68,7 @@ import NCISMStudentList2526 from "./pages/ncism/student/2025-2026/NCISMStudentLi
 import NCISMAttendance2425 from "./pages/ncism/student/2024-2025/NCISMAttendance2425";
 import SeminarWorkshop from "./pages/ncism/other-details/SeminarWorkshop";
 import Camp from "./pages/ncism/other-details/Camp";
-import NCISMHospitalAndOtherStaffList from "./pages/ncism/staff-details/hospita-other-staff/NCISMHospitalAndOtherStaffList";
+import NCISMHospitalAndOtherStaffList from "./pages/ncism/staff-details/hospital-other-staff/NCISMHospitalAndOtherStaffList";
 import NCISMConsultantRMOEMOList from "./pages/ncism/staff-details/consultant-rmo-emo/NCISMConsultantRMOEMOList";
 import NCISMChairman from "./pages/ncism/ncism-home/NCISMChairman";
 import NCISMPrincipal from "./pages/ncism/ncism-home/NCISMPrincipal";
@@ -80,6 +80,8 @@ import NCISMEvents from "./pages/ncism/other-details/NCISMEvents";
 import Sports from "./pages/ncism/other-details/Sports";
 import NCISMAffiliations from "./pages/ncism/NCISMAffiliations";
 import NCISMApprovals from "./pages/ncism/NCISMApprovals";
+import TeachingStaffList from "./pages/ncism/staff-details/teaching/TeachingStaffList";
+import NCISMStudentAttendance2526 from "./pages/ncism/student/2025-2026/NCISMStudentAttendance2526";
 
 const router = createBrowserRouter([
   {
@@ -363,6 +365,10 @@ const router = createBrowserRouter([
         element: <NCISMAttendance2425 />,
       },
       {
+        path: "/ncism-mandate/students/2025-2026/student-attendance",
+        element: <NCISMStudentAttendance2526 />,
+      },
+      {
         path: "/ncism-mandate/other-details/seminar-workshop",
         element: <SeminarWorkshop />,
       },
@@ -421,6 +427,10 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/approvals",
         element: <NCISMApprovals />,
+      },
+      {
+        path: "/ncism-mandate/staff-details/teaching-staff/teaching-staff-list",
+        element: <TeachingStaffList />,
       },
     ],
   },

@@ -156,7 +156,7 @@ export const latestNavbarData = [
               },
               {
                 title: "List",
-                url: "/ncism-mandate/#teaching-staff",
+                url: "/ncism-mandate/staff-details/teaching-staff/teaching-staff-list",
               },
             ],
           },
@@ -236,7 +236,7 @@ export const latestNavbarData = [
               },
               {
                 title: "Attendance",
-                url: "/ncism-mandate/#admission-2025-26-attendance",
+                url: "/ncism-mandate/students/2025-2026/student-attendance",
               },
               {
                 title: "Result",

@@ -5,7 +5,7 @@ const NCISMConsultantRMOEMOList = () => {
   return (
     <DocumentViewer
       title="Consultant / RMO / EMO List"
-      fileUrl="/ncism-staff-details/consultant-RMO-List.pdf"
+      fileUrl="/ncism-staff-details/consultant-rmo/consultantList.pdf"
     />
   );
 };
