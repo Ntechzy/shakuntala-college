@@ -5,7 +5,7 @@ const TeachingStaffList = () => {
   return (
     <DocumentViewer
       title="Teaching Staff List"
-      fileUrl="/ncism-staff-details/teaching/teaching-staff-list.pdf"
+      fileUrl="https://res.cloudinary.com/dhlqc0ymy/image/upload/v1773229501/List_of_Teaching_Staff_with_Link_xforb9.pdf"
     />
   )
 }
