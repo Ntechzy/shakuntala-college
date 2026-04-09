@@ -82,6 +82,9 @@ import NCISMAffiliations from "./pages/ncism/NCISMAffiliations";
 import NCISMApprovals from "./pages/ncism/NCISMApprovals";
 import TeachingStaffList from "./pages/ncism/staff-details/teaching/TeachingStaffList";
 import NCISMStudentAttendance2526 from "./pages/ncism/student/2025-2026/NCISMStudentAttendance2526";
+import NCISMViceChancellor from "./pages/ncism/ncism-home/NCISMViceChancellor";
+import NCISMRegistrar from "./pages/ncism/ncism-home/NCISMRegistrar";
+import NCISMSuperintedent from "./pages/ncism/ncism-home/NCISMSuperintedent";
 
 const router = createBrowserRouter([
   {
@@ -317,7 +320,7 @@ const router = createBrowserRouter([
       },
       {
         path: "ncism-mandate/medical-superintendent",
-        element: <Superintendent />,
+        element: <NCISMSuperintedent />,
       },
       {
         path: "research-publications",
@@ -391,6 +394,14 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/home/principal-details",
         element: <NCISMPrincipal />,
+      },
+      {
+        path: "/ncism-mandate/vice-chancellor-message",
+        element: <NCISMViceChancellor />,
+      },
+      {
+        path: "/ncism-mandate/registrar-message",
+        element: <NCISMRegistrar />,
       },
       {
         path: "/ncism-mandate/college-infrastructure",

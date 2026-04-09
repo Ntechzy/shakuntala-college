@@ -7,11 +7,11 @@ export const latestNavbarData = [
     title: "About",
     url: "/about/",
     submenu: [
-      {
-        title: "College Council",
-        url: "/pdf/councilcomittee.pdf",
-        target: "_blank",
-      },
+      // {
+      //   title: "College Council",
+      //   url: "/pdf/councilcomittee.pdf",
+      //   target: "_blank",
+      // },
       {
         title: "About College",
         url: "/about/#about-college",
@@ -32,7 +32,7 @@ export const latestNavbarData = [
   },
   {
     title: "NCISM Mandate",
-    url: "/ncism-mandate",
+    url: "/ncism-mandate/home-ncism",
     submenu: [
       {
         title: "Home",
@@ -48,11 +48,11 @@ export const latestNavbarData = [
           },
           {
             title: "Vice Chancellor Message",
-            url: "/ncism-mandate/#vice-chancellor-message",
+            url: "/ncism-mandate/vice-chancellor-message",
           },
           {
             title: "Registrar Details / Message",
-            url: "/ncism-mandate/#registrar-message",
+            url: "/ncism-mandate/registrar-message",
           },
           {
             title: "Chairman Details / Message",
@@ -62,11 +62,11 @@ export const latestNavbarData = [
       },
       {
         title: "Affiliations",
-        url: "/ncism-mandate/affiliations"
+        url: "/ncism-mandate/affiliations",
       },
       {
         title: "Approvals",
-        url: "/ncism-mandate/approvals"
+        url: "/ncism-mandate/approvals",
       },
       {
         title: "Links",
@@ -331,7 +331,7 @@ export const latestNavbarData = [
             url: "/ncism-mandate/other-details/sports",
           },
           {
-            title: "Camp",
+            title: "Camp/Activity Reports",
             url: "/ncism-mandate/other-details/camp",
           },
           {
