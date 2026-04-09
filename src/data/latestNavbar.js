@@ -274,43 +274,43 @@ export const latestNavbarData = [
       },
       {
         title: "Committees",
-        url: "/ncism-mandate/#committees",
+        url: "/ncism-mandate/committees/college-committee",
         submenu: [
           {
             title: "College Committee",
-            url: "/ncism-mandate/#college-committee",
+            url: "/ncism-mandate/committees/college-committee",
           },
           {
             title: "Research Publication Committee",
-            url: "/ncism-mandate/#research-publication-committee",
+            url: "/ncism-mandate/committees/research-publication-committee",
           },
           {
             title: "Academic Committee",
-            url: "/ncism-mandate/#academic-committee",
+            url: "/ncism-mandate/committees/academic-committee",
           },
           {
             title: "Anti-Ragging Committee",
-            url: "/ncism-mandate/#anti-ragging-committee",
+            url: "/ncism-mandate/committees/anti-ragging-committee",
           },
           {
             title: "Sexual Harassment Committee",
-            url: "/ncism-mandate/#sexual-harassment-committee",
+            url: "/ncism-mandate/committees/sexual-harassment-committee",
           },
           {
             title: "Internal Quality Assurance Committee",
-            url: "/ncism-mandate/#iqac-committee",
+            url: "/ncism-mandate/committees/internal-quality-assurance-committee",
           },
           {
             title: "Human Resource Committee",
-            url: "/ncism-mandate/#hr-committee",
+            url: "/ncism-mandate/committees/human-resource-committee",
           },
           {
             title: "Co-curricular Committee",
-            url: "/ncism-mandate/#co-curricular-committee",
+            url: "/ncism-mandate/committees/co-curricular-committee",
           },
           {
             title: "Grievance Committee",
-            url: "/ncism-mandate/#grievance-committee",
+            url: "/ncism-mandate/committees/grievance-committee",
           },
         ],
       },

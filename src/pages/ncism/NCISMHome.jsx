@@ -30,12 +30,12 @@ const NCISMHome = () => {
       href: "/ncism-mandate/vice-chancellor-message",
       content: <NCISMViceChancellor />,
     },
-    {
-      id: "registrar-details-message",
-      title: "Registrar Details / Message",
-      href: "/ncism-mandate/registrar-message",
-      content: <NCISMRegistrar />,
-    },
+    // {
+    //   id: "registrar-details-message",
+    //   title: "Registrar Details / Message",
+    //   href: "/ncism-mandate/registrar-message",
+    //   content: <NCISMRegistrar />,
+    // },
     {
       id: "chairman-details-message",
       title: "Chairman Details / Message",

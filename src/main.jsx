@@ -85,6 +85,15 @@ import NCISMStudentAttendance2526 from "./pages/ncism/student/2025-2026/NCISMStu
 import NCISMViceChancellor from "./pages/ncism/ncism-home/NCISMViceChancellor";
 import NCISMRegistrar from "./pages/ncism/ncism-home/NCISMRegistrar";
 import NCISMSuperintedent from "./pages/ncism/ncism-home/NCISMSuperintedent";
+import CollegeCommittee from "./pages/committees/CollegeCommittee";
+import ResearchPublicationCommittee from "./pages/committees/ResearchPublicationCommittee";
+import AcademicCommittee from "./pages/committees/AcademicCommittee";
+import AntiRaggingCommittee from "./pages/committees/AntiRaggingCommittee";
+import SexualHarassmentCommittee from "./pages/committees/SexualHarassmentCommittee";
+import InternalQualityAssuranceCommittee from "./pages/committees/InternalQualityAssuranceCommittee";
+import HumanResourceCommittee from "./pages/committees/HumanResourceCommittee";
+import CoCurricularCommittee from "./pages/committees/CoCurricularCommittee";
+import GrievanceCommittee from "./pages/committees/GrievanceCommittee";
 
 const router = createBrowserRouter([
   {
@@ -442,6 +451,42 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/staff-details/teaching-staff/teaching-staff-list",
         element: <TeachingStaffList />,
+      },
+      {
+        path: "/ncism-mandate/committees/college-committee",
+        element: <CollegeCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/research-publication-committee",
+        element: <ResearchPublicationCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/academic-committee",
+        element: <AcademicCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/anti-ragging-committee",
+        element: <AntiRaggingCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/sexual-harassment-committee",
+        element: <SexualHarassmentCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/internal-quality-assurance-committee",
+        element: <InternalQualityAssuranceCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/human-resource-committee",
+        element: <HumanResourceCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/co-curricular-committee",
+        element: <CoCurricularCommittee />,
+      },
+      {
+        path: "/ncism-mandate/committees/grievance-committee",
+        element: <GrievanceCommittee />,
       },
     ],
   },
