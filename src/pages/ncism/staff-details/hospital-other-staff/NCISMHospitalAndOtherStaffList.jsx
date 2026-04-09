@@ -5,7 +5,7 @@ const NCISMHospitalAndOtherStaffList = () => {
   return (
     <DocumentViewer
       title="Hospital/Other Staff List"
-      fileUrl="/ncism-staff-details/ncism-hospital-staff-list.pdf"
+      fileUrl="/ncism-staff-details/hospital/hospital-staff.pdf"
     />
   );
 };

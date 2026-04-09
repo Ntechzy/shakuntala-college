@@ -31,7 +31,7 @@ const Camp = () => {
       <div className="seminar-container">
         {/* ---------- DOCUMENT ---------- */}
         <DocumentViewer
-          title="Camp"
+          title="Camp/Activity Reports"
           fileUrl="/ncism-other-details/camp/camp.pdf"
         />
       </div>

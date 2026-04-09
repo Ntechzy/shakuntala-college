@@ -78,13 +78,13 @@ export const menuData = [
       //   url: "principal",
       //   content: Principal,
       // },
-      {
-        title: "Awards & Achievements",
-        url: "awards",
-        // content: "<h1 className='heading1'>Hello in H1</h1>",
-        content: Awards,
-        // content: () => <AboutCollege />,
-      },
+      // {
+      //   title: "Awards & Achievements",
+      //   url: "awards",
+      //   content: "<h1 className='heading1'>Hello in H1</h1>",
+      //   content: Awards,
+      //   content: () => <AboutCollege />,
+      // },
     ],
   },
   {

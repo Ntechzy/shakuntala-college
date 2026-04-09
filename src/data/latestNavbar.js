@@ -7,11 +7,11 @@ export const latestNavbarData = [
     title: "About",
     url: "/about/",
     submenu: [
-      {
-        title: "College Council",
-        url: "/pdf/councilcomittee.pdf",
-        target: "_blank",
-      },
+      // {
+      //   title: "College Council",
+      //   url: "/pdf/councilcomittee.pdf",
+      //   target: "_blank",
+      // },
       {
         title: "About College",
         url: "/about/#about-college",
@@ -32,7 +32,7 @@ export const latestNavbarData = [
   },
   {
     title: "NCISM Mandate",
-    url: "/ncism-mandate",
+    url: "/ncism-mandate/home-ncism",
     submenu: [
       {
         title: "Home",
@@ -48,11 +48,11 @@ export const latestNavbarData = [
           },
           {
             title: "Vice Chancellor Message",
-            url: "/ncism-mandate/#vice-chancellor-message",
+            url: "/ncism-mandate/vice-chancellor-message",
           },
           {
             title: "Registrar Details / Message",
-            url: "/ncism-mandate/#registrar-message",
+            url: "/ncism-mandate/registrar-message",
           },
           {
             title: "Chairman Details / Message",
@@ -62,11 +62,11 @@ export const latestNavbarData = [
       },
       {
         title: "Affiliations",
-        url: "/ncism-mandate/affiliations"
+        url: "/ncism-mandate/affiliations",
       },
       {
         title: "Approvals",
-        url: "/ncism-mandate/approvals"
+        url: "/ncism-mandate/approvals",
       },
       {
         title: "Links",
@@ -156,7 +156,7 @@ export const latestNavbarData = [
               },
               {
                 title: "List",
-                url: "/ncism-mandate/#teaching-staff",
+                url: "/ncism-mandate/staff-details/teaching-staff/teaching-staff-list",
               },
             ],
           },
@@ -236,7 +236,7 @@ export const latestNavbarData = [
               },
               {
                 title: "Attendance",
-                url: "/ncism-mandate/#admission-2025-26-attendance",
+                url: "/ncism-mandate/students/2025-2026/student-attendance",
               },
               {
                 title: "Result",
@@ -274,43 +274,43 @@ export const latestNavbarData = [
       },
       {
         title: "Committees",
-        url: "/ncism-mandate/#committees",
+        url: "/ncism-mandate/committees/college-committee",
         submenu: [
           {
             title: "College Committee",
-            url: "/ncism-mandate/#college-committee",
+            url: "/ncism-mandate/committees/college-committee",
           },
           {
             title: "Research Publication Committee",
-            url: "/ncism-mandate/#research-publication-committee",
+            url: "/ncism-mandate/committees/research-publication-committee",
           },
           {
             title: "Academic Committee",
-            url: "/ncism-mandate/#academic-committee",
+            url: "/ncism-mandate/committees/academic-committee",
           },
           {
             title: "Anti-Ragging Committee",
-            url: "/ncism-mandate/#anti-ragging-committee",
+            url: "/ncism-mandate/committees/anti-ragging-committee",
           },
           {
             title: "Sexual Harassment Committee",
-            url: "/ncism-mandate/#sexual-harassment-committee",
+            url: "/ncism-mandate/committees/sexual-harassment-committee",
           },
           {
             title: "Internal Quality Assurance Committee",
-            url: "/ncism-mandate/#iqac-committee",
+            url: "/ncism-mandate/committees/internal-quality-assurance-committee",
           },
           {
             title: "Human Resource Committee",
-            url: "/ncism-mandate/#hr-committee",
+            url: "/ncism-mandate/committees/human-resource-committee",
           },
           {
             title: "Co-curricular Committee",
-            url: "/ncism-mandate/#co-curricular-committee",
+            url: "/ncism-mandate/committees/co-curricular-committee",
           },
           {
             title: "Grievance Committee",
-            url: "/ncism-mandate/#grievance-committee",
+            url: "/ncism-mandate/committees/grievance-committee",
           },
         ],
       },
@@ -331,7 +331,7 @@ export const latestNavbarData = [
             url: "/ncism-mandate/other-details/sports",
           },
           {
-            title: "Camp",
+            title: "Camp/Activity Reports",
             url: "/ncism-mandate/other-details/camp",
           },
           {
