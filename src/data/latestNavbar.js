@@ -277,40 +277,40 @@ export const latestNavbarData = [
         url: "/ncism-mandate/committees/college-committee",
         submenu: [
           {
-            title: "College Committee",
-            url: "/ncism-mandate/committees/college-committee",
-          },
-          {
-            title: "Research Publication Committee",
-            url: "/ncism-mandate/committees/research-publication-committee",
-          },
-          {
             title: "Academic Committee",
             url: "/ncism-mandate/committees/academic-committee",
           },
           {
-            title: "Anti-Ragging Committee",
+            title: "Against sexual harassment committee",
+            url: "/ncism-mandate/committees/sexual-harassment-committee",
+          },
+          {
+            title: "Anti Ragging",
             url: "/ncism-mandate/committees/anti-ragging-committee",
           },
           {
-            title: "Sexual Harassment Committee",
-            url: "/ncism-mandate/committees/sexual-harassment-committee",
+            title: "Co – Curricular And Extra – Curricular Activity Committee",
+            url: "/ncism-mandate/committees/co-curricular-committee",
+          },
+          {
+            title: "College council",
+            url: "/ncism-mandate/committees/college-committee",
+          },
+          {
+            title: "Grievance Redressal Committee",
+            url: "/ncism-mandate/committees/grievance-committee",
           },
           {
             title: "Internal Quality Assurance Committee",
             url: "/ncism-mandate/committees/internal-quality-assurance-committee",
           },
           {
-            title: "Human Resource Committee",
+            title: "Minutes of Research Innovation And Entrepreneurship Development Committee",
+            url: "/ncism-mandate/committees/research-publication-committee",
+          },
+          {
+            title: "Minutes of Human Resources Development Cell Committee",
             url: "/ncism-mandate/committees/human-resource-committee",
-          },
-          {
-            title: "Co-curricular Committee",
-            url: "/ncism-mandate/committees/co-curricular-committee",
-          },
-          {
-            title: "Grievance Committee",
-            url: "/ncism-mandate/committees/grievance-committee",
           },
         ],
       },

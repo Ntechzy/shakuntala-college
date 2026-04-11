@@ -8,7 +8,7 @@ const AntiRaggingCommittee = () => {
     conclusion: "/committees/anti-ragging-committee/conclusion.pdf",
   };
 
-  return <CommitteePageTemplate title="Anti-Ragging Committee" documents={documents} />;
+  return <CommitteePageTemplate title="Anti Ragging" documents={documents} />;
 };
 
 export default AntiRaggingCommittee;
