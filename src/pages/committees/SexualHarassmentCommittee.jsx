@@ -8,7 +8,7 @@ const SexualHarassmentCommittee = () => {
     conclusion: "/committees/sexual-harassment-committee/conclusion.pdf",
   };
 
-  return <CommitteePageTemplate title="Sexual Harassment Committee" documents={documents} />;
+  return <CommitteePageTemplate title="Against sexual harassment committee" documents={documents} />;
 };
 
 export default SexualHarassmentCommittee;

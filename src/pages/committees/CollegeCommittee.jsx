@@ -8,7 +8,7 @@ const CollegeCommittee = () => {
     conclusion: "/committees/college-committee/conclusion.pdf",
   };
 
-  return <CommitteePageTemplate title="College Committee" documents={documents} />;
+  return <CommitteePageTemplate title="College council" documents={documents} />;
 };
 
 export default CollegeCommittee;

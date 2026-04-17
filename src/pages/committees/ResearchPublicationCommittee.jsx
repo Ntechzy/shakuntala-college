@@ -9,7 +9,10 @@ const ResearchPublicationCommittee = () => {
   };
 
   return (
-    <CommitteePageTemplate title="Research Publication Committee" documents={documents} />
+    <CommitteePageTemplate
+      title="Minutes of Research Innovation And Entrepreneurship Development Committee"
+      documents={documents}
+    />
   );
 };
 
