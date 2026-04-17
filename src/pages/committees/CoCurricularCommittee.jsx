@@ -8,7 +8,12 @@ const CoCurricularCommittee = () => {
     conclusion: "/committees/co-curricular-committee/conclusion.pdf",
   };
 
-  return <CommitteePageTemplate title="Co-curricular Committee" documents={documents} />;
+  return (
+    <CommitteePageTemplate
+      title="Co - Curricular And Extra - Curricular Activity Committee"
+      documents={documents}
+    />
+  );
 };
 
 export default CoCurricularCommittee;

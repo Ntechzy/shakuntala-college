@@ -8,7 +8,12 @@ const HumanResourceCommittee = () => {
     conclusion: "/committees/human-resource-committee/conclusion.pdf",
   };
 
-  return <CommitteePageTemplate title="Human Resource Committee" documents={documents} />;
+  return (
+    <CommitteePageTemplate
+      title="Minutes of Human Resources Development Cell Committee"
+      documents={documents}
+    />
+  );
 };
 
 export default HumanResourceCommittee;

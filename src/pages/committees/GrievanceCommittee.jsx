@@ -8,7 +8,7 @@ const GrievanceCommittee = () => {
     conclusion: "/committees/grievance-committee/conclusion.pdf",
   };
 
-  return <CommitteePageTemplate title="Grievance Committee" documents={documents} />;
+  return <CommitteePageTemplate title="Grievance Redressal Committee" documents={documents} />;
 };
 
 export default GrievanceCommittee;
