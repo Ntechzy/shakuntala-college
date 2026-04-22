@@ -94,6 +94,7 @@ import InternalQualityAssuranceCommittee from "./pages/committees/InternalQualit
 import HumanResourceCommittee from "./pages/committees/HumanResourceCommittee";
 import CoCurricularCommittee from "./pages/committees/CoCurricularCommittee";
 import GrievanceCommittee from "./pages/committees/GrievanceCommittee";
+import NCISMVicePrincipal from "./pages/ncism/ncism-home/NCISMVicePrincipal";
 
 const router = createBrowserRouter([
   {
@@ -403,6 +404,10 @@ const router = createBrowserRouter([
       {
         path: "/ncism-mandate/home/principal-details",
         element: <NCISMPrincipal />,
+      },
+      {
+        path: "/ncism-mandate/home/vice-principal-details",
+        element: <NCISMVicePrincipal />,
       },
       {
         path: "/ncism-mandate/vice-chancellor-message",

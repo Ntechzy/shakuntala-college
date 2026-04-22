@@ -43,6 +43,10 @@ export const latestNavbarData = [
             url: "/ncism-mandate/home/principal-details",
           },
           {
+            title: "Vice-Principal Details / Message",
+            url: "/ncism-mandate/home/vice-principal-details",
+          },
+          {
             title: "Medical Superintendent Details / Message",
             url: "ncism-mandate/medical-superintendent",
           },
