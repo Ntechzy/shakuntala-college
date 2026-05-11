@@ -115,7 +115,7 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "apply-now",
+        path: "/apply-now",
         element: <ApplyNowForm />,
       },
       {
