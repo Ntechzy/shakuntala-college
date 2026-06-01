@@ -155,8 +155,12 @@ export const latestNavbarData = [
             url: "/ncism-mandate/#teaching",
             submenu: [
               {
-                title: "Attendance",
-                url: "/ncism-mandate/#teaching-attendance",
+                title: "Attendance 2024",
+                url: "/ncism-mandate/teaching-attendance-2024",
+              },
+              {
+                title: "Attendance 2025",
+                url: "/ncism-mandate/teaching-attendance-2025",
               },
               {
                 title: "List",
@@ -170,11 +174,11 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Attendance",
-                url: "/ncism-mandate/#non-teaching-attendance",
+                url: "/ncism-mandate/non-teaching-attendance",
               },
               {
                 title: "List",
-                url: "/ncism-mandate/#non-teaching-staff",
+                url: "/ncism-mandate/non-teaching-staff",
               },
             ],
           },
@@ -198,7 +202,7 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Attendance",
-                url: "/ncism-mandate/#hospital-other-staff-attendance",
+                url: "/ncism-mandate/hospital-staff-attendance",
               },
               {
                 title: "List",

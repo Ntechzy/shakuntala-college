@@ -95,6 +95,11 @@ import HumanResourceCommittee from "./pages/committees/HumanResourceCommittee";
 import CoCurricularCommittee from "./pages/committees/CoCurricularCommittee";
 import GrievanceCommittee from "./pages/committees/GrievanceCommittee";
 import NCISMVicePrincipal from "./pages/ncism/ncism-home/NCISMVicePrincipal";
+import NCISMHospitalStaffAttendance from "./pages/ncism/staff-details/hospital-other-staff/NCISMHospitalStaffAttendance";
+import NCISMNonTeachingStaffAttendance from "./pages/ncism/staff-details/non-teaching/NCISMNonTeachingStaffAttendance";
+import TeachingStaffAttendance24 from "./pages/ncism/staff-details/teaching/TeachingStaffAttendance24";
+import TeachingStaffAttendance25 from "./pages/ncism/staff-details/teaching/TeachingStaffAttendance25";
+import NCISMNonTeachingStaffList from "./pages/ncism/staff-details/non-teaching/NCISMNonTeachingStaffList";
 
 const router = createBrowserRouter([
   {
@@ -297,12 +302,28 @@ const router = createBrowserRouter([
         element: <HospitalStaff />,
       },
       {
+        path: "/ncism-mandate/hospital-staff-attendance",
+        element: <NCISMHospitalStaffAttendance />,
+      },
+      {
+        path: "/ncism-mandate/non-teaching-attendance",
+        element: <NCISMNonTeachingStaffAttendance />,
+      },
+      {
         path: "ncism-mandate/teaching-staff",
         element: <TeachingStaff />,
       },
       {
-        path: "ncism-mandate/non-teaching-staff",
-        element: <NonTeachingStaff />,
+        path: "/ncism-mandate/teaching-attendance-2024",
+        element: <TeachingStaffAttendance24 />,
+      },
+      {
+        path: "/ncism-mandate/teaching-attendance-2025",
+        element: <TeachingStaffAttendance25 />,
+      },
+      {
+        path: "/ncism-mandate/non-teaching-staff",
+        element: <NCISMNonTeachingStaffList />,
       },
       {
         path: "ncism-mandate/clinical-staff",
