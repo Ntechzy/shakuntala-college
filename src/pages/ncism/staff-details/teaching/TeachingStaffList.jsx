@@ -5,7 +5,7 @@ const TeachingStaffList = () => {
   return (
     <ExcelViewer
       title="Teaching Staff List"
-      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1780382260/Teaching-Staff-List_kvginr.xlsx"
+      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1783143061/TEACHING_FOR_WEBSITE_t0mxus.xlsx"
     />
   )
 }

@@ -5,7 +5,7 @@ const NCISMHospitalAndOtherStaffList = () => {
   return (
     <ExcelViewer
       title="Hospital Staff List"
-      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1780327369/Hospital_Staff_jiuhc6.xlsx"
+      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1783143255/HOSPITAL_FOR_WEBSITE_u1ljs8.xlsx"
     />
   );
 };
