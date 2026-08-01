@@ -74,7 +74,6 @@ export const latestNavbarData = [
       },
       {
         title: "Links",
-        url: "/ncism-mandate/#links",
         submenu: [
           {
             title: "AYUSH",
@@ -104,7 +103,6 @@ export const latestNavbarData = [
       },
       {
         title: "Infrastructure & Facilities",
-        url: "/ncism-mandate/#facilities",
         submenu: [
           {
             title: "College",
@@ -148,19 +146,14 @@ export const latestNavbarData = [
       },
       {
         title: "Staff Details",
-        url: "/ncism-mandate/#staff-details",
         submenu: [
           {
             title: "Teaching",
             url: "/ncism-mandate/#teaching",
             submenu: [
               {
-                title: "Attendance 2024",
-                url: "/ncism-mandate/teaching-attendance-2024",
-              },
-              {
-                title: "Attendance 2025",
-                url: "/ncism-mandate/teaching-attendance-2025",
+                title: "Attendance",
+                url: "/ncism-mandate/teaching-attendance",
               },
               {
                 title: "List",
@@ -188,7 +181,7 @@ export const latestNavbarData = [
             submenu: [
               {
                 title: "Attendance",
-                url: "/ncism-mandate/#consultant-rmo-emo-attendance",
+                url: "/ncism-mandate/consultant-rmo-emo-attendance",
               },
               {
                 title: "List",
@@ -214,7 +207,6 @@ export const latestNavbarData = [
       },
       {
         title: "Students",
-        url: "/ncism-mandate/#students",
         submenu: [
           {
             title: "Admission Batch 2024-25",
@@ -324,11 +316,10 @@ export const latestNavbarData = [
       },
       {
         title: "Other Details",
-        url: "/ncism-mandate/#other-details",
         submenu: [
           {
             title: "Research Publication",
-            url: "/ncism-mandate/#research-publications",
+            url: "/ncism-mandate/other-details/research-publication",
           },
           {
             title: "Seminar / Workshop",

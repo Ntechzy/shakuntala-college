@@ -1,5 +1,5 @@
 import React from "react";
-import vicePrincipal from "/vice-principal.jpeg";
+import vicePrincipal from "/vice-principal.webp";
 
 const NCISMVicePrincipal = () => {
   return (
