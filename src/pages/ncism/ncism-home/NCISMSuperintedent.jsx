@@ -187,20 +187,23 @@ const NCISMSuperintedent = () => {
               />
               <p className="person-name">Dr Anil Kumar Tripathi</p>
               <p className="person-des">Medical Superintendent</p>
+              <p className="person-des"> BAMS, MS Shalya Tantra </p>
+              <p className="person-phone"> +91-9935568575 </p>
+              <p className="person-mail"> drshivesh81@gmail.com </p>
             </div>
 
             <p className="person-content">
-              Dr Anil Kumar Tripathi, BAMS, MS (Ay) Shalya, PhD from the
-              Faculty of Ayurveda, IMS, BHU, Varanasi, brings 18 years of
-              teaching and administrative experience across institutions
-              including IMS BHU, SKAMC Varanasi, and SAMC Jaunpur. His work
-              spans roles as assistant professor, associate professor,
-              professor, principal, and medical superintendent. He has authored
-              the book titled Kshar Karma, published more than 20 research
-              papers in renowned journals, delivered guest lectures and seminar
-              talks, and has extensive clinical experience in general surgery,
-              laparoscopy, anorectal surgery, uro surgery, pediatric surgery,
-              and Ayurvedic parasurgical practices.
+              Dr Anil Kumar Tripathi, BAMS, MS (Ay) Shalya, PhD from the Faculty
+              of Ayurveda, IMS, BHU, Varanasi, brings 18 years of teaching and
+              administrative experience across institutions including IMS BHU,
+              SKAMC Varanasi, and SAMC Jaunpur. His work spans roles as
+              assistant professor, associate professor, professor, principal,
+              and medical superintendent. He has authored the book titled Kshar
+              Karma, published more than 20 research papers in renowned
+              journals, delivered guest lectures and seminar talks, and has
+              extensive clinical experience in general surgery, laparoscopy,
+              anorectal surgery, uro surgery, pediatric surgery, and Ayurvedic
+              parasurgical practices.
             </p>
           </div>
         </div>

@@ -188,10 +188,9 @@ const NCISMVicePrincipal = () => {
               <img src={vicePrincipal} alt="" className="person-img" />
               <p className="person-name">Dr Gaurishankar Yadav</p>
               <p className="person-des"> Vice Principal </p>
-
-              {/* Commented out as per original code, but styled if uncommented */}
-              {/*<p className="person-phone"> +91-9935568575 </p>*/}
-              {/*<p className="person-mail"> drshivesh81@gmail.com </p>*/}
+              <p className="person-des"> M.D Panchakarma </p>
+              <p className="person-phone"> +91-99198 01055 </p>
+              <p className="person-mail"> dr.gaurishankar89@gmail.com </p>
             </div>
 
             {/* Right Side: Text Content */}
