@@ -1,9 +1,9 @@
 import React from 'react'
-import ExcelViewer from '../../../../shared/ExcelViewer'
+import DocumentViewer from '../../../../shared/DocumentViewer'
 
 const NCISMNonTeachingStaffList = () => {
   return (
-    <ExcelViewer title="Non Teaching Staff List" fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1780327197/Non_Teaching_Staff_d9eguh.xlsx"></ExcelViewer>
+    <DocumentViewer title="Non Teaching Staff List" fileUrl="https://res.cloudinary.com/dhlqc0ymy/image/upload/v1783152658/NON_TEACHING_FOR_WEBSITE_c8n2at.pdf"></DocumentViewer>
   )
 }
 

@@ -8,11 +8,13 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
-  const [messageSent, setMessageSent] = useState(false);
+  const [messageStatus, setMessageStatus] = useState("idle");
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    setMessageStatus("sending");
 
     emailjs
       .sendForm("service_ct0glwi", "template_ps7zzxj", form.current, {
@@ -21,17 +23,29 @@ const Contact = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          setMessageStatus("success");
+          e.target.reset();
+          setTimeout(() => {
+            setMessageStatus("idle");
+          }, 3000);
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setMessageStatus("error");
+          setTimeout(() => {
+            setMessageStatus("idle");
+          }, 4000);
         }
       );
-    setMessageSent(true);
-    setTimeout(() => {
-      setMessageSent(false);
-    }, 3000);
-    e.target.reset();
   };
+
+  const buttonText = {
+    idle: "Send Message",
+    sending: "Sending...",
+    success: "Message Sent!",
+    error: "Message Failed",
+  }[messageStatus];
+
   return (
     <section className="contact-us" id="contact">
       <h5>Get In Touch</h5>
@@ -98,9 +112,12 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className={`btn ${messageSent ? "btn-success" : "btn-primary"}`}
+            disabled={messageStatus === "sending"}
+            className={`btn ${
+              messageStatus === "success" ? "btn-success" : "btn-primary"
+            }`}
           >
-            {messageSent ? "Message Sent!" : "Send Message"}
+            {buttonText}
           </button>
         </form>
       </div>

@@ -1,11 +1,11 @@
 import React from 'react'
-import ExcelViewer from '../../../../shared/ExcelViewer'
+import DocumentViewer from '../../../../shared/DocumentViewer'
 
 const TeachingStaffList = () => {
   return (
-    <ExcelViewer
+    <DocumentViewer
       title="Teaching Staff List"
-      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1780326962/Teaching_Staff_j8pmkp.xlsx"
+      fileUrl="https://res.cloudinary.com/dhlqc0ymy/image/upload/v1783152531/TEACHING_FOR_WEBSITE_oneh0o.pdf"
     />
   )
 }

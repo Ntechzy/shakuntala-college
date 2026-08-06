@@ -1,11 +1,11 @@
 import React from "react";
-import ExcelViewer from "../../../../shared/ExcelViewer";
+import DocumentViewer from "../../../../shared/DocumentViewer";
 
 const NCISMHospitalAndOtherStaffList = () => {
   return (
-    <ExcelViewer
+    <DocumentViewer
       title="Hospital Staff List"
-      fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1780327369/Hospital_Staff_jiuhc6.xlsx"
+      fileUrl="https://res.cloudinary.com/dhlqc0ymy/image/upload/v1783152733/HOSPITAL_FOR_WEBSITE_ytvxtl.pdf"
     />
   );
 };

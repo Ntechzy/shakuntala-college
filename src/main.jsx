@@ -70,6 +70,7 @@ import SeminarWorkshop from "./pages/ncism/other-details/SeminarWorkshop";
 import Camp from "./pages/ncism/other-details/Camp";
 import NCISMHospitalAndOtherStaffList from "./pages/ncism/staff-details/hospital-other-staff/NCISMHospitalAndOtherStaffList";
 import NCISMConsultantRMOEMOList from "./pages/ncism/staff-details/consultant-rmo-emo/NCISMConsultantRMOEMOList";
+import NCISMConsultantRMOEMOAttendance from "./pages/ncism/staff-details/consultant-rmo-emo/NCISMConsultantRMOEMOAttendance";
 import NCISMChairman from "./pages/ncism/ncism-home/NCISMChairman";
 import NCISMPrincipal from "./pages/ncism/ncism-home/NCISMPrincipal";
 import NCISMCollegeInfra from "./pages/ncism/infrastructre-facilities/college/NCISMCollegeInfra";
@@ -97,9 +98,9 @@ import GrievanceCommittee from "./pages/committees/GrievanceCommittee";
 import NCISMVicePrincipal from "./pages/ncism/ncism-home/NCISMVicePrincipal";
 import NCISMHospitalStaffAttendance from "./pages/ncism/staff-details/hospital-other-staff/NCISMHospitalStaffAttendance";
 import NCISMNonTeachingStaffAttendance from "./pages/ncism/staff-details/non-teaching/NCISMNonTeachingStaffAttendance";
-import TeachingStaffAttendance24 from "./pages/ncism/staff-details/teaching/TeachingStaffAttendance24";
-import TeachingStaffAttendance25 from "./pages/ncism/staff-details/teaching/TeachingStaffAttendance25";
+import NCISMTeachingStaffAttendance from "./pages/ncism/staff-details/teaching/NCISMTeachingStaffAttendance";
 import NCISMNonTeachingStaffList from "./pages/ncism/staff-details/non-teaching/NCISMNonTeachingStaffList";
+import NCISMResearchPublications from "./pages/ncism/other-details/NCISMResearchPublications";
 
 const router = createBrowserRouter([
   {
@@ -314,12 +315,16 @@ const router = createBrowserRouter([
         element: <TeachingStaff />,
       },
       {
+        path: "/ncism-mandate/teaching-attendance",
+        element: <NCISMTeachingStaffAttendance />,
+      },
+      {
         path: "/ncism-mandate/teaching-attendance-2024",
-        element: <TeachingStaffAttendance24 />,
+        element: <NCISMTeachingStaffAttendance />,
       },
       {
         path: "/ncism-mandate/teaching-attendance-2025",
-        element: <TeachingStaffAttendance25 />,
+        element: <NCISMTeachingStaffAttendance />,
       },
       {
         path: "/ncism-mandate/non-teaching-staff",
@@ -411,12 +416,20 @@ const router = createBrowserRouter([
         element: <Camp />,
       },
       {
+        path: "/ncism-mandate/other-details/research-publication",
+        element: <NCISMResearchPublications />,
+      },
+      {
         path: "/ncism-mandate/staff-details/hospital-other-staff",
         element: <NCISMHospitalAndOtherStaffList />,
       },
       {
         path: "/ncism-mandate/staff-details/consultant-rmo-emo",
         element: <NCISMConsultantRMOEMOList />,
+      },
+      {
+        path: "/ncism-mandate/consultant-rmo-emo-attendance",
+        element: <NCISMConsultantRMOEMOAttendance />,
       },
       {
         path: "/ncism-mandate/home/chairman-details",

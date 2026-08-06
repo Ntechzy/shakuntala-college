@@ -1,9 +1,11 @@
-import React from 'react'
-import ExcelViewer from '../../../../shared/ExcelViewer'
+import WorkInProgress from '../../../../shared/WorkInProgress'
 
 const NCISMHospitalStaffAttendance = () => {
   return (
-    <ExcelViewer title="Hospital Staff Attendance" fileUrl="https://res.cloudinary.com/dhlqc0ymy/raw/upload/v1780325506/ATTANDANCE_HOSPITAL_z8dvbh.xlsx" />
+    <WorkInProgress
+      title="Hospital / Other Staff Attendance"
+      subtitle="The hospital and other staff attendance details are currently being prepared for publication."
+    />
   )
 }
 
