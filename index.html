@@ -11,21 +11,16 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
-  <script>
-    window.mainScriptLoaded = function () {
-      const script = document.createElement('script');
-      script.type = 'module';
-      script.src = 'https://ntechzy.in/api/v1/student-form/form.js';
-      // script.src = 'http://localhost:4000/api/v1/student-form/form.js';
-      script.setAttribute('path', '["/apply-now", "/dynamicForm/index.html"]');
-      script.setAttribute('divid', "formsID7375");
-      script.setAttribute('courses', '["Select Course","BAMS", "BHMS", "BUMS", "MBBS", "BDS"]');
-      script.setAttribute('styles', "basic");
-      script.setAttribute('logo', '/image99.png');
-      script.setAttribute('contact', "+123-456-7890");
-      document.body.appendChild(script);
-    };
-  </script>
+  <Script
+          type="module"
+          src="https://ntechzy.in/api/v1/student-form/form.js"
+          path='["/", "/dynamicForm/index.html"]'
+          divid="formsID7375"
+          courses='["Select Course","BAMS"]'
+          styles="basic"
+          logo="/logo.png"
+          contact="+91-9918905623"
+        ></Script>
 </body>
 
 </html>

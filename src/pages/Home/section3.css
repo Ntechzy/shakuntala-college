@@ -32,6 +32,13 @@
   background-color: #f0f0f0;
   padding: 20px;
   text-align: center;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clickable-news {
+  cursor: pointer;
 }
 
 .prev-btn,

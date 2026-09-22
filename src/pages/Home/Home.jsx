@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.css";
 import Hero from "../../components/Hero/Hero";
 import Section1 from "./Section1";
@@ -16,8 +16,26 @@ import Connect from "./Connect";
 import { Outlet } from "react-router-dom";
 
 const Home = () => {
+  const [showPopupForm, setShowPopupForm] = useState(true);
+
   return (
     <div>
+      {showPopupForm && (
+        <div className="home-popup-form">
+          <div className="home-popup-form__content">
+            <button
+              aria-label="Close form popup"
+              className="home-popup-form__close"
+              onClick={() => setShowPopupForm(false)}
+              type="button"
+            >
+              ×
+            </button>
+            <div id="formsID7375"></div>
+          </div>
+        </div>
+      )}
+
       {/* <img
         src={front}
         className="hero"
