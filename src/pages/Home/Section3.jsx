@@ -29,6 +29,22 @@ const hs3news = [
   },
   {
     id: 3,
+    date: "23/09/2026",
+    img: "/news/news16.webp",
+    title: "Health Talk on World Ayurveda Day",
+    content:
+      "Dr. Shakuntala Ayurvedic Medical College and Hospital organized a health talk on the 11th World Ayurveda Day, sharing guidance on healthy living, disease prevention, treatment, and Panchakarma practices.",
+  },
+  {
+    id: 4,
+    date: "23/09/2026",
+    img: "/news/news17.webp",
+    title: "World Ayurveda Day Celebration",
+    content:
+      "The World Ayurveda Day program began with worship of Bhagwan Dhanvantari and a lamp-lighting ceremony, along with student stalls showcasing different Ayurvedic products.",
+  },
+  {
+    id: 5,
     date: "25/04/2024",
     img: herbs,
     title: "Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.)",
@@ -36,7 +52,7 @@ const hs3news = [
       "Explore holistic Ayurvedic principles, anatomy, herbology, diagnostics, and therapeutics for a career as an Ayurvedic practitioner. Enroll for transformative learning!",
   },
   {
-    id: 4,
+    id: 6,
     date: "25/04/2024",
     img: lab,
     title: "Master of Surgery(M.S.) Ayurveda",
@@ -44,7 +60,7 @@ const hs3news = [
       "Master the intricate art of Ayurvedic surgery, blending ancient techniques with modern medical knowledge. Elevate your skills and career. Enroll now!",
   },
   {
-    id: 5,
+    id: 7,
     date: "25/04/2024",
     img: body,
     title: "Ayurvedic Nursing",
@@ -52,7 +68,7 @@ const hs3news = [
       "Enhance your caregiving skills with Ayurvedic nursing, integrating traditional healing wisdom with modern healthcare practices. Enroll for holistic nursing education. ",
   },
   {
-    id: 6,
+    id: 8,
     date: "25/04/2024",
     img: inner,
     title: "Ayurvedic Pharmacist",
@@ -60,7 +76,7 @@ const hs3news = [
       "Master the fusion of Ayurvedic wisdom and pharmaceutical science. Become an Ayurvedic Pharmacist adept at herbal formulations and holistic healthcare. Enroll today!",
   },
   {
-    id: 7,
+    id: 9,
     date: "26/01/2025",
     img: r1,
     title: "Republic Day",
@@ -68,7 +84,7 @@ const hs3news = [
       "Republic Day is a national holiday in india commemorating the adoption of the constitution of the republic of india and the country's transition to a republic",
   },
   {
-    id: 8,
+    id: 10,
     date: "26/01/2025",
     img: r2,
     title: "Republic Day",
